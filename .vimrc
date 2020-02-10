@@ -1,3 +1,3 @@
 set number
-set ai
+set autoindent
 set ruler
