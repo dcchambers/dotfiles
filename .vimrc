@@ -2,6 +2,7 @@
 set number
 set ruler
 set autoindent
+set showmatch
 
 " Syntax highlighting
 syntax on
