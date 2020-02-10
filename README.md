@@ -12,7 +12,7 @@
 
 ### Command Line/Terminal
 
-- `.bash_profile`
+- [`.bash_porofile`](./.bash_profile)
 
 ### Editors
 
