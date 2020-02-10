@@ -1,2 +1,4 @@
 # dotfiles
-[dot] files
+
+- bash_profile
+
