@@ -5,3 +5,4 @@
 ln -sv $PWD/.vimrc ~
 ln -sv $PWD/.tmux.conf ~
 ln -sv $PWD/.bash_profile ~
+ln -sv $PWD/.config/ranger ~/.config
