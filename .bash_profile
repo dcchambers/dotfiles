@@ -31,4 +31,10 @@ source /Users/dchambers/Code/zendesk/zdi/dockmaster/zdi.sh
 # End ZD Dev Stuff
 ###########################
 
+###########################
+# Aliases
+alias c='clear'
+# END Aliases
+###########################
+
 echo "✔ ~/.bash_profile sourced"
