@@ -34,6 +34,7 @@ source /Users/dchambers/Code/zendesk/zdi/dockmaster/zdi.sh
 ###########################
 # Aliases
 alias c='clear'
+alias g='git'
 # END Aliases
 ###########################
 
