@@ -7,6 +7,7 @@ set number
 set ruler
 set autoindent
 set showmatch
+set ttimeoutlen=5
 
 " Syntax highlighting and colors
 syntax on
