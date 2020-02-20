@@ -22,6 +22,9 @@ set expandtab
 set ignorecase
 set smartcase
 
+" Set textwidth to 79 for .txt, .md, and .markdown files.
+au BufReadPost,BufNewFile *.md,*.txt,*.markdown setlocal tw=79
+
 """""""""""""""""""""""""""""""
 " Install VimPlug and Plugins "
 """""""""""""""""""""""""""""""
