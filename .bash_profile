@@ -38,4 +38,7 @@ alias g='git'
 # END Aliases
 ###########################
 
+# Colors
+export TERM='xterm-256color'
+
 echo "✔ ~/.bash_profile sourced"
