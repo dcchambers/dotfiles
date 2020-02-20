@@ -30,6 +30,11 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+" List plugs here. To intall them:
+" Reload .vimrc with ':source %' and then run ':PlugInstall'.
 call plug#begin()
+
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
