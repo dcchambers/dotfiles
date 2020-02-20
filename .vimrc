@@ -1,3 +1,7 @@
+""""""""""""""""""""""""
+" General Enhancements "
+""""""""""""""""""""""""
+
 " Some basic QOL improvements
 set number
 set ruler
@@ -15,3 +19,17 @@ set expandtab
 " Search enhancements
 set ignorecase
 set smartcase
+
+""""""""""""""""""""
+" Plugins and more "
+""""""""""""""""""""
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin()
+
+call plug#end()
