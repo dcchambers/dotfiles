@@ -8,8 +8,9 @@ set ruler
 set autoindent
 set showmatch
 
-" Syntax highlighting
+" Syntax highlighting and colors
 syntax on
+set t_Co=256
 
 " Set tabs to 2 spaces
 set shiftwidth=2
@@ -20,9 +21,9 @@ set expandtab
 set ignorecase
 set smartcase
 
-""""""""""""""""""""
-" Plugins and more "
-""""""""""""""""""""
+"""""""""""""""""""""""""""""""
+" Install VimPlug and Plugins "
+"""""""""""""""""""""""""""""""
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -35,6 +36,14 @@ endif
 call plug#begin()
 
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 
 call plug#end()
+
+""""""""""""""""""""""""
+" Plugin Configuration "
+""""""""""""""""""""""""
+
+" Airline + Theme
+let g:airline_theme='wombat'
