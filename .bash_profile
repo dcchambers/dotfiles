@@ -35,6 +35,8 @@ source /Users/dchambers/Code/zendesk/zdi/dockmaster/zdi.sh
 # Aliases
 alias c='clear'
 alias g='git'
+alias gd='git diff --color=always' #color=always preserves colors when piping to less
+alias gds='git diff --staged --color=always | less -R'
 # END Aliases
 ###########################
 
