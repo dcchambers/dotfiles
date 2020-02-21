@@ -25,6 +25,12 @@ set smartcase
 " Enable 'normal' backspace behavior
 set backspace=indent,eol,start
 
+" Allow capital W and Q to still write/quit vim
+command W w
+command Q q
+command Wq wq
+command WQ wq
+
 " Set textwidth to 79 for .txt, .md, and .markdown files.
 au BufReadPost,BufNewFile *.md,*.txt,*.markdown setlocal tw=79
 
