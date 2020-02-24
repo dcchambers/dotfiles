@@ -31,6 +31,10 @@ command Q q
 command Wq wq
 command WQ wq
 
+"Set custom command for MarkdownPreview
+command MP MarkdownPreview
+command Mp MarkdownPreview
+
 " Set textwidth to 79 for .txt, .md, and .markdown files.
 au BufReadPost,BufNewFile *.md,*.txt,*.markdown setlocal tw=79
 
