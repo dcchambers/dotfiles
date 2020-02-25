@@ -38,6 +38,11 @@ command Mp MarkdownPreview
 " Set textwidth to 79 for .txt, .md, and .markdown files.
 au BufReadPost,BufNewFile *.md,*.txt,*.markdown setlocal tw=79
 
+" Enable spellcheck for .txt, .md, and .markdown files.
+au BufReadPost,BufNewFile *.md,*.txt,*.markdown setlocal spell
+hi clear SpellBad
+hi SpellBad cterm=underline ctermfg=red
+
 """""""""""""""""""""""""""""""
 " Install VimPlug and Plugins "
 """""""""""""""""""""""""""""""
