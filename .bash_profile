@@ -2,12 +2,9 @@
 #  .bash_profile  #
 ###################
 
-# Git bash autocomplete
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion || {
-    # if not found in /usr/local/etc, try the brew --prefix location
-    [ -f "$(brew --prefix)/etc/bash_completion.d/git-completion.bash" ] && \
-        . $(brew --prefix)/etc/bash_completion.d/git-completion.bash
-}
+# Source git bash autocomplete
+# Must have bash-completion@2 (since bash >v4.0) installed via Homebrew
+source $(brew --prefix)/etc/bash_completion.d/git-completion.bash
 
 # custom bash prompt
 export PS1="\[\033[0;35m\]\t\[\033[0m\]\[\033[0;36m\] \w\[\033[0m\]\[\033[0;31m\] ❱❱ \[\033[0m\]"
