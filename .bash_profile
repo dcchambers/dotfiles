@@ -15,14 +15,14 @@ eval "$(rbenv init -)"
 ##########################
 # ZD Dev Environment stuff
 
-source ~/dev/dotfiles_n_scripts/shell_scripts/aws-login.bash
-source ~/dev/dotfiles_n_scripts/shell_Scripts/aws-exec.bash
+source ~/Code/zendesk/dotfiles_n_scripts/shell_scripts/aws-login.bash
+source ~/Code/zendesk/dotfiles_n_scripts/shell_Scripts/aws-exec.bash
 source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc
 source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc
 
 # BEGIN ZDI
 export DOCKER_FOR_MAC_ENABLED=true
-source /Users/dchambers/Code/zendesk/zdi/dockmaster/zdi.sh
+source ~/Code/zendesk/zdi/dockmaster/zdi.sh
 # END ZDI
 
 # End ZD Dev Stuff
