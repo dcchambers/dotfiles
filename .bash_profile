@@ -39,7 +39,7 @@ alias gds='git diff --staged --color=always | less -R'
 
 # MacOS Python Fix (Python 3 installed with Brew. Python 2 default included in MacOS.)
 alias python='/usr/local/bin/python3' #Make python 3.x default.
-alias pip='/use/local/bin/pip3'
+alias pip='/usr/local/bin/pip3'
 
 # END Aliases
 ###########################
