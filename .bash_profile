@@ -32,6 +32,7 @@ source ~/Code/zendesk/zdi/dockmaster/zdi.sh
 
 ###########################
 # Aliases
+alias be='bundle exec'
 alias c='clear'
 alias g='git'
 alias gd='git diff --color=always' #color=always preserves colors when piping to less
