@@ -22,6 +22,8 @@
 ### CLI Tools
 
 - [`.ticker.yaml`](./.ticker.yaml)
+- [`noterc`](./.config/notekeeper/noterc)
+- [`ranger`](./.config/ranger)
 
 ## Other Specifications
 
