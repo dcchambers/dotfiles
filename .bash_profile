@@ -6,6 +6,8 @@
 # Must have bash-completion@2 (since bash >v4.0) installed via Homebrew
 source $(brew --prefix)/etc/bash_completion.d/git-completion.bash
 
+# Fix goto 
+source $(brew --prefix)/etc/bash_completion.d/goto.sh
 
 
 # custom bash prompt
