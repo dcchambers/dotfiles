@@ -6,5 +6,6 @@ ln -sv $PWD/.vimrc                    ~
 ln -sv $PWD/.tmux.conf                ~
 ln -sv $PWD/.bash_profile             ~
 ln -sv $PWD/.ticker.yaml              ~
+ln -sv $PWD/.cobra.yaml               ~
 ln -sv $PWD/.config/ranger            ~/.config
 ln -sv $PWD/.config/notekeeper        ~/.config
