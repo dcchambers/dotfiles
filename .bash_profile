@@ -34,6 +34,8 @@ alias c='clear'
 alias g='git'
 alias gd='git diff --color=always' #color=always preserves colors when piping to less
 alias gds='git diff --staged --color=always | less -R'
+alias gcl='git config --list'
+alias gcm='git commit -m'
 
 # MacOS Python Fix (Python 3 installed with Brew. Python 2 default included in MacOS.)
 alias python='/usr/local/bin/python3' #Make python 3.x default.
