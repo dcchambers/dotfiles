@@ -6,7 +6,7 @@
 # Must have bash-completion@2 (since bash >v4.0) installed via Homebrew
 source $(brew --prefix)/etc/bash_completion.d/git-completion.bash
 
-# Fix goto 
+# Fix goto
 source $(brew --prefix)/etc/bash_completion.d/goto.sh
 
 
@@ -19,21 +19,13 @@ export PATH=$PATH:$(go env GOPATH)/bin
 # set up ruby env
 eval "$(rbenv init -)"
 
-##########################
-# ZD Dev Environment stuff
-
-source ~/Code/zendesk/dotfiles_n_scripts/shell_scripts/aws-login.bash
-source ~/Code/zendesk/dotfiles_n_scripts/shell_Scripts/aws-exec.bash
-source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc
-source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc
-
-# BEGIN ZDI
-export DOCKER_FOR_MAC_ENABLED=true
-source ~/Code/zendesk/zdi/dockmaster/zdi.sh
-# END ZDI
-
-# End ZD Dev Stuff
-###########################
+# Load Work Config
+if [ $(hostname) = "24683" ]; then
+    source ~/zendesk.bash_profile
+    echo "✔ Zendesk configuration loaded"
+else
+    echo "✗ Unable to load Zendesk configuration"
+fi
 
 ###########################
 # Aliases
@@ -53,4 +45,4 @@ alias pip='/usr/local/bin/pip3'
 # Colors
 export TERM='xterm-256color'
 
-echo "✔ ~/.bash_profile sourced"
+echo "✔ .bash_profile loaded"
