@@ -1,1 +1,2 @@
 NOTE_DIR="$HOME/Notes"
+PRINT_TOOL="bat"
