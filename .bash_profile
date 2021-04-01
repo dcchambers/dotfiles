@@ -38,6 +38,13 @@ eval "$(rbenv init -)"
 ###########################
 
 ###########################
+# Brew Stuff
+
+# Brew installs some stuff to /usr/local/sbin. Add to path.
+export PATH="/usr/local/sbin:$PATH"
+###########################
+
+###########################
 # Aliases
 alias be='bundle exec'
 alias c='clear'
