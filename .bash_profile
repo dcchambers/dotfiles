@@ -57,10 +57,12 @@ alias pip='/usr/local/bin/pip3'
 # Work Stuff
 # Load Work Config
 if [ $(hostname) = "24683" ]; then
-    source ~/zendesk.bash_profile
-    echo "✔ Zendesk configuration loaded"
-else
-    echo "✗ Unable to load Zendesk configuration"
+    if [ -f ~/.bash_profile.zendesk ]; then
+        source ~/.bash_profile.zendesk
+        echo "✔ Zendesk configuration loaded"
+    else
+        echo "✗ Unable to load Zendesk configuration"
+    fi
 fi
 # END Work Stuff
 ###########################
