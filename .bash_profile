@@ -20,6 +20,10 @@ export TERM='xterm-256color'
 
 # custom bash prompt
 export PS1="\[\033[0;35m\]\t\[\033[0m\]\[\033[0;36m\] \w\[\033[0m\]\[\033[0;31m\] ❱❱ \[\033[0m\]"
+
+# Increase Bash History Size (Default 500)
+export HISTSIZE=2000
+
 # END MISC
 ###########################
 
