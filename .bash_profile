@@ -4,12 +4,22 @@
 
 ###########################
 # Bash Autocompletion
-# Source git bash autocomplete
-# Must have bash-completion@2 (since bash >v4.0) installed via Homebrew
-source $(brew --prefix)/etc/bash_completion.d/git-completion.bash
 
-# Fix goto
-source $(brew --prefix)/etc/bash_completion.d/goto.sh
+BREW_PREFIX="/usr/local"
+if type brew &>/dev/null; then
+  if [[ -r "${BREW_PREFIX}/etc/profile.d/bash_completion.sh" ]]; then
+    source "${BREW_PREFIX}/etc/profile.d/bash_completion.sh"
+  else
+    for COMPLETION in "${BREW_PREFIX}/etc/bash_completion.d/"*; do
+      [[ -r "$COMPLETION" ]] && source "$COMPLETION"
+    done
+  fi
+fi
+
+# Source git bash autocomplete. For some reason the above doesn't work properly.
+# Must have bash-completion@2 (since bash >v4.0) installed via Homebrew
+source ${BREW_PREFIX}/etc/bash_completion.d/git-completion.bash
+
 # END Bash Autocompletion
 ###########################
 
