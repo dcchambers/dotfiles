@@ -44,6 +44,9 @@ export PATH=$PATH:$(go env GOPATH)/bin
 
 # set up ruby env
 eval "$(rbenv init -)"
+
+# set up Rust stuff
+source "$HOME/.cargo/env"
 # END Programming
 ###########################
 
