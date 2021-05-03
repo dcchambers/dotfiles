@@ -50,6 +50,9 @@ source "$HOME/.cargo/env"
 
 # set default EDITOR
 export EDITOR=/usr/local/bin/vim
+
+# set GPG_TTY to sign git commits.
+export GPG_TTY=$(tty)
 # END Programming
 ###########################
 
