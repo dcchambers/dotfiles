@@ -9,3 +9,4 @@ ln -sv $PWD/.ticker.yaml              ~
 ln -sv $PWD/.cobra.yaml               ~
 ln -sv $PWD/.config/ranger            ~/.config
 ln -sv $PWD/.config/notekeeper        ~/.config
+ln -sv $PWD/.gnupg/gpg-agent.conf     ~/.gnupg
