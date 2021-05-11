@@ -1,2 +1,3 @@
 NOTE_DIR="$HOME/Notes"
 PRINT_TOOL="bat"
+EDITOR="/usr/local/bin/vim"
