@@ -1,0 +1,9 @@
+# This gitconfig file is loaded by my main gitconfig, which is not shared publicly.
+# This file contains general purpose git configuration.
+# To use it, add the following two lines (sans comment block) to your .gitconfig
+#
+# [include]
+#   path = ~/.gitconfig-public
+
+[commit]
+  verbose = true
