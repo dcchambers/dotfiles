@@ -1,0 +1,2 @@
+go get -u github.com/spf13/cobra
+go get -v github.com/kovetskiy/mark

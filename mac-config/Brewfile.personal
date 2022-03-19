@@ -1,0 +1,26 @@
+# Brewfile for stuff I only want on my personal laptop.
+# Install with: brew bundle install --file Brewfile.personal
+
+# Taps
+tap "achannarasappa/tap"
+tap "tarkah/tickrs"
+tap "cooklang/tap"
+
+# Formulae
+brew "achannarasappa/tap/ticker"
+brew "borgbackup"
+brew "borgmatic"
+brew "cooklang/tap/cook"
+brew "k9s"
+brew "krew"
+brew "kubectx"
+brew "tarkah/tickrs/tickrs"
+
+# Casks
+cask "discord"
+cask "google-chrome"
+cask "inkscape"
+cask "postgres-unofficial"
+cask "private-internet-access"
+cask "krita"
+cask "zoom"
