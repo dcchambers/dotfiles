@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Mac Setup Wizard"
-echo "----------------"
+echo "Mac Boostrap"
+echo "------------"
 
 # Get user data
 echo "Enter your full name (For git config):"
@@ -57,7 +57,15 @@ echo "Creating directory: ~/Code"
 mdkir ~/Code
 
 # Dotfiles
-echo "Cloning dotfiles repo"
-git clone git@github.com:dcchambers/dotfiles.git ~/Code/dotfiles
-echo "Configuring dotfiles"
-cd ~/Code/dotfiles && sh create-symlinks.sh 
+if [ ! -d  ~/Code/dotfiles ]
+then
+    echo "Cloning dotfiles repo"
+    git clone git@github.com:dcchambers/dotfiles.git ~/Code/dotfiles
+fi
+read -p "Would you like to configure dotfiles? [Yy]: " -n 1 -r
+echo #newline
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    echo "Configuring dotfiles"
+    cd ~/Code/dotfiles && sh create-symlinks.sh 
+fi
