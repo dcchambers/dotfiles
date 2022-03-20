@@ -47,8 +47,11 @@ read ans
 # Install Homebrew
 printf "\nInstalling Homebrew\n"
 if test ! "$(which brew)"; then
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
+# Configure brew to work correctly with zsh
+echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/$USER/.zprofile
+eval $(/opt/homebrew/bin/brew shellenv)
 printf "\nUpdating Homebrew\n"
 brew update
 
