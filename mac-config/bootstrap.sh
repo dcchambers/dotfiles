@@ -81,3 +81,16 @@ if [ "$reply" = "y" ] || [ "$reply" = "Y" ];
 then
     cd ~/Code/dotfiles/mac-config && brew bundle install
 fi
+
+# Theming
+printf "Would you like to download macos terminal themes? [Yy]: "
+read -r reply
+if [ "$reply" = "y" ] || [ "$reply" = "Y" ];
+then
+    printf "Cloning macos-terminal-themes repo (https://github.com/dcchambers/macos-terminal-themes/tree/master)\n"
+    git clone git@github.com:dcchambers/macos-terminal-themes.git ~/Code/macos-terminal-themes
+fi
+printf "To set a default theme for terminal:
+1. Choose a theme from the themes/ directory.
+2. Double click it to open MacOS Terminal with that theme.
+3. From the menu, select shell --> use settings as default.\n"
