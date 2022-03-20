@@ -40,6 +40,9 @@ fi
 # Install command line tools
 printf "\nInstalling xcode command line tools\n"
 xcode-select --install
+# This normally won't pause the script. Add a resume confirmation below.
+printf "\nPress enter to continue.\n"
+read ans
 
 # Install Homebrew
 printf "\nInstalling Homebrew\n"
