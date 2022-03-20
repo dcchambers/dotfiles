@@ -1,6 +1,6 @@
-# dotfiles
+# dotfiles and mac config
 
-- A repo containing my public dotfiles & mac configuration. Not included are some more sensitive files (eg .ssh) and work stuff.
+- A repo containing my *public* dotfiles & mac configuration. Not included are some more sensitive files (eg `.ssh`) and work stuff.
 
 ## Usage
 
@@ -25,7 +25,7 @@
 - [`noterc`](./.config/notekeeper/noterc)
 - [`ranger`](./.config/ranger)
 
-## mac-config
+## Mac Config
 
 Brewfile and scripts to bootstrap a fresh Mac install.
 
@@ -35,17 +35,18 @@ Brewfile and scripts to bootstrap a fresh Mac install.
 
 ### Bootstrap
 
-- Clone this repo to your new mac (or just [download a `.zip`](https://github.com/dcchambers/dotfiles/archive/refs/heads/master.zip) if you don't have `git` installed/configured yet).
+You can bootstrap a new mac using the included `bootstrap.sh` script. You should be able to run this script from a brand new mac using only included, default tools.
+
+The script sets up a ssh key, configures git, downloads dotfiles, installs homebrew, and installs my commonly used packages/tools/apps via homebrew.
+
+- Download the bootstrap script from this git repo:
   ```
-  $ mkdir -p ~/Code && cd ~/Code && git clone https://github.com/dcchambers/dotfiles
+  $ curl -o /tmp/bootstrap.sh https://raw.githubusercontent.com/dcchambers/dotfiles/master/mac-config/bootstrap.sh
   ```
-- Open a terminal and navigate to the directory that has the `bootstrap.bash` script.
+- Run the script
   ```
-  $ cd ~/Code/dotfiles/mac-config
-  ```
-- Run the script and follow the instructions.
-  ```
-  $ ./bootstrap.bash
+  $ chmod +x /tmp/bootstrap.sh
+  $ /tmp/bootstrap.sh
   ```
 
 ### Brewfile
@@ -63,7 +64,10 @@ Brewfile and scripts to bootstrap a fresh Mac install.
 
 ## Other Specifications
 
-- I am using a Mac with MacOS Big Sur.
+- These dotfiles are *mac-focused* and partially share config between several
+  machines.
+  - My personal mac is a 13" 2015 MBP (Intel) running MacOS Monterey.
+  - My work mac is a 16" 2021 MBP (M1 Pro) running MacOS Monterey.
 - I use `Terminal.app`, the standard MacOS terminal emulator.
 - Bash is my preferred shell, although I experiment with zsh and fish shell as
   well.
