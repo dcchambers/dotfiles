@@ -85,7 +85,7 @@ alias wid='vim /Users/dchambers/Code/zendesk/work-notes/misc/whatidid.md' # dead
 ###########################
 # Work Stuff
 # Load Work Config
-if [ $(hostname) = "24683" ]; then
+if [ $(hostname) = "QCM262HV7N" ]; then
     if [ -f ~/.bash_profile.zendesk ]; then
         source ~/.bash_profile.zendesk
         echo "✔ Zendesk configuration loaded"
