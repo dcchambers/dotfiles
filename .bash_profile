@@ -8,7 +8,7 @@
 # Homebrew
 eval $(/opt/homebrew/bin/brew shellenv)
 
-BREW_PREFIX="/usr/local"
+BREW_PREFIX="/opt/homebrew"
 if type brew &>/dev/null; then
   if [[ -r "${BREW_PREFIX}/etc/profile.d/bash_completion.sh" ]]; then
     source "${BREW_PREFIX}/etc/profile.d/bash_completion.sh"
