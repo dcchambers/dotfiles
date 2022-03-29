@@ -100,3 +100,19 @@ printf "To set a default theme for terminal:
 1. Choose a theme from the themes/ directory.
 2. Double click it to open MacOS Terminal with that theme.
 3. From the menu, select shell --> use settings as default.\n"
+
+# rust
+printf "Would you like to install Rust? [Yy]: "
+read -r reply
+if [ "$reply" = "y" ] || [ "$reply" = "Y" ];
+then
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+fi
+
+# TODO
+
+# Ruby Setup
+
+# Go Setup
+
+

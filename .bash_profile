@@ -49,7 +49,7 @@ export PATH=$PATH:$(go env GOPATH)/bin
 eval "$(rbenv init -)"
 
 # set up Rust stuff
-source "$HOME/.cargo/env"
+source $HOME/.cargo/env
 
 # set default EDITOR
 export EDITOR=/usr/local/bin/vim
