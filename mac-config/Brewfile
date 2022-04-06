@@ -146,7 +146,7 @@ cask "insomnia"
 cask "itsycal"
 cask "joplin"
 cask "kap"
-cask "keybase"
+#cask "keybase" Sadly does not play well with Apple Silicon. Since buyout by Zoom app is defacto dead. :sad:
 cask "lunar"
 cask "macdown"
 cask "mark-text"
