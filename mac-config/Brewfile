@@ -157,6 +157,7 @@ cask "notable"
 cask "notion"
 cask "nova"
 cask "numi"
+cask "obs"
 cask "paw"
 cask "postman"
 #cask "rancher" #Conflicts with existing k8s stuff.
