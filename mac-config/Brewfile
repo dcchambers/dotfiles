@@ -163,6 +163,7 @@ cask "paw"
 cask "postman"
 #cask "rancher" #Conflicts with existing k8s stuff.
 cask "rectangle"
+cask "remarkable"
 cask "textbuddy" #Trying out. Purchase --> https://retina.studio/
 cask "transmission"
 cask "typora"
