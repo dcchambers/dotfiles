@@ -3,6 +3,8 @@
 # Use this script to automatically create symlinks to `~` for *everything* in this repo.
 
 mkdir -p ~/.config
+mkdir -p ~/.config/ranger
+mkdir -p ~/.config/notekeeper
 mkdir -p ~/.gnupg
 mkdir -p ~/Library/Application\ Support/Code/User
 mkdir -p ~/.newsboat
@@ -14,7 +16,7 @@ ln -sv $PWD/.ticker.yaml              ~
 ln -sv $PWD/.cobra.yaml               ~
 ln -sv $PWD/.gitconfig-public         ~
 ln -sv $PWD/.config/ranger            ~/.config/ranger
-ln -sv $PWD/.config/notekeeper        ~/.config/notekeeper
+ln -sv $PWD/.config/notekeeper/noterc ~/.config/notekeeper/noterc
 ln -sv $PWD/.gnupg/gpg-agent.conf     ~/.gnupg/gpg-agent.conf
 ln -sv $PWD/vscode/settings.json      ~/Library/Application\ Support/Code/User/settings.json
 ln -sv $PWD/.newsboat/urls            ~/.newsboat/urls
