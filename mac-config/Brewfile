@@ -133,7 +133,6 @@ brew "youtube-dl"
 brew "yq"
 
 # Casks (.app programs)
-cask "atom"
 cask "background-music"
 cask "basictex"
 cask "calibre"
