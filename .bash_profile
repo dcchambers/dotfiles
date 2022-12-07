@@ -51,6 +51,11 @@ eval "$(rbenv init -)"
 # set up Rust stuff
 source $HOME/.cargo/env
 
+# set up Python stuff
+# Add Python 2 stuff to PATH
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages:${PATH}"
+export PATH
+
 # set default EDITOR
 export EDITOR=/usr/local/bin/vim
 
