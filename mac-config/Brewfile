@@ -134,49 +134,84 @@ brew "yarn"
 brew "youtube-dl"
 brew "yq"
 
-# Casks (.app programs)
-cask "background-music"
-cask "basictex"
+# Casks (Graphical .app programs)
+
+## Books/E-Readers
 cask "calibre"
-cask "chefdk"
-cask "db-browser-for-sqlite"
-cask "docker"
-cask "fastmarks" #Trying out. Purchase --> https://retina.studio/
-cask "firefox"
-cask "firefox-developer-edition"
-cask "firefox-nightly"
-cask "flux"
-cask "gitify"
-#cask "google-chrome" #Managed by IT dept. Added to Brewfile.personal instead for personal machine.
-cask "google-chrome-canary"
-cask "google-cloud-sdk"
-cask "inkscape"
-cask "insomnia"
+cask "remarkable"
+
+## Calculator
+cask "numi"
+#cask "parsify"
+#cask "soulver"
+
+## Calendar
 cask "itsycal"
-cask "joplin"
-cask "kap"
-#cask "keybase" Sadly does not play well with Apple Silicon. Since buyout by Zoom app is defacto dead. :sad:
+
+## MacOS Productivity
+#cask "alfred"
+cask "background-music"
+cask "flux"
 cask "lunar"
+#cask "raycast"
+cask "rectangle"
+cask "silicon"
+
+## Markdown, Notes & PKM
 cask "macdown"
 cask "mark-text"
 cask "notable"
 cask "notion"
-cask "nova"
-cask "numi"
-cask "obs"
-cask "paw"
-cask "postman"
-#cask "rancher" #Conflicts with existing k8s stuff.
-cask "rectangle"
-cask "remarkable"
-cask "silicon"
-cask "textbuddy" #Trying out. Purchase --> https://retina.studio/
-cask "transmission"
+cask "joplin"
 cask "typora"
-cask "vagrant"
-cask "visual-studio-code"
+
+## Media
+cask "transmission"
 cask "vlc"
+
+## Programming
+### APIs
+cask "httpie"
+cask "insomnia"
+cask "postman"
+cask "rapidapi"
+
+### Containers/Kubernetes
+cask "docker"
+#cask "rancher" #Conflicts with existing k8s stuff.
+
+### Database
+cask "db-browser-for-sqlite"
+
+### IDEs/Text Editors
+cask "nova" #trial
+cask "textbuddy" #Trial. Purchase --> https://retina.studio/
+cask "visual-studio-code"
+
+### Misc
+cask "chefdk"
+cask "gitify"
+cask "google-cloud-sdk"
+cask "vagrant"
+
+## Screen Recording
+cask "kap"
+cask "obs"
+
+## Web
+cask "fastmarks" #Trial. Purchase --> https://retina.studio/
+cask "firefox"
+cask "firefox-developer-edition"
+cask "firefox-nightly"
+#cask "google-chrome" #Moved to personal.Brewfile
+cask "google-chrome-canary"
+
+## To-be categorized
+cask "basictex"
+cask "inkscape"
+#cask "keybase
+cask "maestral" #dropbox client
 #cask "zoom" #Managed by IT dept
 
-#Mac App Store
+# Mac App Store (via mas)
 mas "Noteship", id: 1571711347
