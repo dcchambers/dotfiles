@@ -158,11 +158,13 @@ cask "rectangle"
 cask "silicon"
 
 ## Markdown, Notes & PKM
+cask "joplin"
+cask "logseq"
 cask "macdown"
 cask "mark-text"
 cask "notable"
 cask "notion"
-cask "joplin"
+cask "obsidian"
 cask "typora"
 
 ## Media
