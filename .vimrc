@@ -35,8 +35,8 @@ command WQ wq
 command MP MarkdownPreview
 command Mp MarkdownPreview
 
-" Set textwidth to 79 for .txt, .md, and .markdown files.
-au BufReadPost,BufNewFile *.md,*.txt,*.markdown setlocal tw=79
+" Set textwidth to 79 for .txt files.
+au BufReadPost,BufNewFile *.txt, setlocal tw=79
 
 " Enable spellcheck for .txt, .md, and .markdown files.
 au BufReadPost,BufNewFile *.md,*.txt,*.markdown setlocal spell
