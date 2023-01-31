@@ -75,6 +75,7 @@ export PATH="/usr/local/sbin:$PATH"
 # Aliases
 alias be='bundle exec'
 alias c='clear'
+alias cim='vim' # I typo this a lot...
 alias g='git'
 alias gd='git diff --color=always' #color=always preserves colors when piping to less
 alias gds='git diff --staged --color=always | less -R'
