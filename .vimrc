@@ -63,6 +63,7 @@ Plug 'tpope/vim-fugitive'
 " markdown-preview requires npm and yarn
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 Plug 'scrooloose/nerdtree'
+Plug 'google/vim-jsonnet'
 
 call plug#end()
 
