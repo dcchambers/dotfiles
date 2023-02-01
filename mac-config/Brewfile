@@ -5,6 +5,7 @@ tap "chef/chef"
 tap "cue-lang/tap"
 tap "dcchambers/tap"
 tap "eth-p/software"
+tap "googlecontainertools/kpt"
 tap "hashicorp/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
@@ -74,6 +75,7 @@ brew "joplin-cli"
 brew "jq"
 #brew "jsonnet" #Conflicts with go-jsonnet
 brew "k9s"
+brew "kpt" # googlecontainertools/kpt/kpt
 brew "kubernetes-cli" #Minikube dependency, but useful to list still
 brew "kubie"
 brew "krew"
