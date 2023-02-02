@@ -75,6 +75,7 @@ brew "joplin-cli"
 brew "jq"
 #brew "jsonnet" #Conflicts with go-jsonnet
 brew "k9s"
+brew "kapp" # vmware-tanzu/carvel/kapp
 brew "kpt" # googlecontainertools/kpt/kpt
 brew "kubernetes-cli" #Minikube dependency, but useful to list still
 brew "kubie"
