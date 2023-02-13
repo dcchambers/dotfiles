@@ -158,7 +158,7 @@ cask "itsycal"
 cask "background-music"
 cask "flux"
 cask "lunar"
-#cask "raycast"
+cask "raycast"
 cask "rectangle"
 cask "silicon"
 
