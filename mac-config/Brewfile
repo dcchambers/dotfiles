@@ -164,7 +164,7 @@ cask "silicon"
 
 ## Markdown, Notes & PKM
 cask "joplin"
-cask "logseq"
+#cask "logseq"
 cask "macdown"
 cask "mark-text"
 cask "notable"
