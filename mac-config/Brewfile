@@ -81,6 +81,7 @@ brew "kubernetes-cli" #Minikube dependency, but useful to list still
 brew "kubie"
 brew "krew"
 brew "lastpass-cli"
+brew "libyaml" #needed for rbenv/ruby-build
 brew "lnav"
 brew "lynx"
 brew "mark" # kovetskiy/mark
