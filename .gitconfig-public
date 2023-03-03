@@ -7,3 +7,19 @@
 
 [commit]
   verbose = true
+
+[pull]
+  rebase = true
+
+[commit]
+  gpgsign = true
+
+[gpg]
+  program = gpg
+
+[core]
+  ignorecase = false
+  editor = vim
+
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/
