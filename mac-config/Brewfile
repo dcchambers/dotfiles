@@ -189,6 +189,7 @@ cask "docker"
 
 ### Database
 cask "db-browser-for-sqlite"
+cask "postgres-unofficial" # https://postgresapp.com/
 
 ### IDEs/Text Editors
 cask "nova" #trial
