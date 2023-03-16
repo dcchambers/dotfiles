@@ -61,6 +61,12 @@ export EDITOR=/usr/local/bin/vim
 
 # set GPG_TTY to sign git commits.
 export GPG_TTY=$(tty)
+
+# Node (NVM)
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
 # END Programming
 ###########################
 
@@ -69,6 +75,11 @@ export GPG_TTY=$(tty)
 
 # Brew installs some stuff to /usr/local/sbin. Add to path.
 export PATH="/usr/local/sbin:$PATH"
+###########################
+
+###########################
+# Postgres 
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 ###########################
 
 ###########################
