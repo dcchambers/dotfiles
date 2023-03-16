@@ -1,5 +1,6 @@
 {
     "workbench.colorTheme": "Monokai",
     "window.zoomLevel": 1,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2
 }
