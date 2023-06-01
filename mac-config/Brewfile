@@ -162,6 +162,7 @@ cask "lunar"
 cask "raycast"
 cask "rectangle"
 cask "silicon"
+cask "shortcat"
 
 ## Markdown, Notes & PKM
 cask "joplin"
