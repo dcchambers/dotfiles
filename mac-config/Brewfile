@@ -209,6 +209,9 @@ cask "vagrant"
 cask "kap"
 cask "obs"
 
+## Terminal
+cask "warp"
+
 ## Web
 cask "fastmarks" #Trial. Purchase --> https://retina.studio/
 cask "firefox"
