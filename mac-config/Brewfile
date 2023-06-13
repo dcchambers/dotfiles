@@ -81,6 +81,7 @@ brew "kapp" # vmware-tanzu/carvel/kapp
 brew "kpt" # googlecontainertools/kpt/kpt
 brew "kubernetes-cli" #Minikube dependency, but useful to list still
 brew "kubie"
+brew "kustomize"
 brew "krew"
 brew "lastpass-cli"
 brew "libyaml" #needed for rbenv/ruby-build
