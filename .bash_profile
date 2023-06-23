@@ -98,7 +98,7 @@ alias cim='vim' # I typo this a lot...
 alias g='git'
 alias gd='git diff --color=always' #color=always preserves colors when piping to less
 alias gds='git diff --staged --color=always | less -R'
-alias gcd="git commit -m $(date '+%Y-%m-%d')"
+alias gcd='git commit -m $(date +%Y-%m-%d)'
 alias gcl='git config --list'
 alias gcm='git commit -m'
 # MacOS Python Fix (Python 3 installed with Brew. Python 2 default included in MacOS.)
