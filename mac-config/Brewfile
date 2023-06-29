@@ -87,6 +87,7 @@ brew "lastpass-cli"
 brew "libyaml" #needed for rbenv/ruby-build
 brew "lnav"
 brew "lynx"
+brew "m-cli"
 brew "mark" # kovetskiy/mark
 brew "mas"
 brew "micro"
