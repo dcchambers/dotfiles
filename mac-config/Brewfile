@@ -180,6 +180,7 @@ cask "obsidian"
 cask "typora"
 
 ## Media
+cask "newnewswire"
 cask "transmission"
 cask "vlc"
 
