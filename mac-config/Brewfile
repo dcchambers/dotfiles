@@ -18,6 +18,7 @@ tap "instrumenta/instrumenta"
 tap "kovetskiy/mark"
 tap "noahgorstein/tap"
 tap "teamookla/speedtest"
+tap "tinygo-org/tools"
 tap "vmware-tanzu/carvel"
 
 # Brew Formula (CLI tools)
@@ -132,6 +133,7 @@ brew "sttr"
 brew "task"
 brew "tealdeer" #tldr.sh rust implementation
 brew "terminal-notifier"
+brew "tinygo-org/tools/tinygo" 
 brew "tmux"
 brew "timewarrior"
 brew "transmission-cli"
