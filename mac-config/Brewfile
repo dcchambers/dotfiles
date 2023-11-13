@@ -209,6 +209,7 @@ cask "visual-studio-code"
 
 ### Misc
 cask "chefdk"
+cask "dash"
 cask "gitify"
 cask "google-cloud-sdk"
 cask "vagrant"
