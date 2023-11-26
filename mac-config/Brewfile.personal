@@ -26,3 +26,10 @@ cask "krita"
 cask "steam"
 cask "steamcmd"
 cask "zoom"
+
+# SetApp
+cask "setapp"
+# Apps installed via setapp:
+# bartender
+# devutils
+# xnapper
