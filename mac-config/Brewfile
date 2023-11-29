@@ -74,9 +74,11 @@ brew "heroku/brew/heroku"
 brew "homeport/tap/dyff"
 brew "httpie"
 #brew "instrumenta/instrumenta/kubeval" #Using dcchambers/tap/kubeval for now.
+brew "jaq"
 brew "jless"
 brew "joplin-cli"
 brew "jq"
+brew "jql"
 #brew "jsonnet" #Conflicts with go-jsonnet
 brew "k9s"
 brew "kapp" # vmware-tanzu/carvel/kapp
