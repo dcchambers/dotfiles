@@ -123,6 +123,7 @@ brew "ruby-build"
 #brew "rust" #Let's try just using rustup.
 brew "rustup-init"
 brew "saml2aws"
+brew "scc"
 brew "shellcheck"
 brew "silicon"
 brew "slides"
