@@ -83,6 +83,9 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # Brew installs some stuff to /usr/local/sbin. Add to path.
 export PATH="/usr/local/sbin:$PATH"
+
+# Other common bin install locatio
+export PATH="~/.local/bin:$PATH"
 ###########################
 
 ###########################
@@ -105,7 +108,7 @@ alias gcm='git commit -m'
 alias la='ls -al'
 alias pip='/usr/local/bin/pip3'
 alias python='/usr/local/bin/python3' #Make python 3.x default.
-alias wid='vim /Users/dchambers/Code/zendesk/work-notes/misc/whatidid.md' # dead simple work tracking for non-jira stuff
+alias wid='vim ~/Code/zendesk/work-notes/misc/whatidid.md' # dead simple work tracking for non-jira stuff
 # END Aliases
 ###########################
 
