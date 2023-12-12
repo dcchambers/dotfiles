@@ -1,5 +1,6 @@
 # Taps
 tap "abhimanyu003/sttr"
+tap "ankitpokhrel/jira-cli"
 tap "charmbracelet/tap"
 tap "chef/chef"
 tap "cue-lang/tap"
@@ -24,6 +25,7 @@ tap "vmware-tanzu/carvel"
 # Brew Formula (CLI tools)
 brew "act"
 brew "age"
+brew "ankitpokhrel/jira-cli/jira-cli"
 brew "asciinema"
 brew "awscli"
 brew "bash"
