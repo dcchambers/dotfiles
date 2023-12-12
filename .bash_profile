@@ -126,4 +126,9 @@ fi
 # END Work Stuff
 ###########################
 
+###########################
+#bashrc
+source ~/.bashrc
+###########################
+
 echo "✔ .bash_profile loaded"
