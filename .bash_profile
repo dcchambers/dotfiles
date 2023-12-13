@@ -57,7 +57,7 @@ PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/
 export PATH
 
 # set default EDITOR
-export EDITOR=/usr/local/bin/vim
+export EDITOR=/opt/homebrew/bin/vim
 
 # set GPG_TTY to sign git commits.
 export GPG_TTY=$(tty)
