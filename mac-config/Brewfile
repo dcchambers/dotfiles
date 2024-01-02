@@ -73,6 +73,7 @@ brew "hashicorp/tap/vault"
 brew "hashicorp/tap/waypoint"
 brew "helm"
 brew "heroku/brew/heroku"
+brew "hexyl"
 brew "homeport/tap/dyff"
 brew "httpie"
 #brew "instrumenta/instrumenta/kubeval" #Using dcchambers/tap/kubeval for now.
@@ -120,6 +121,7 @@ brew "rbenv"
 brew "rbenv-vars"
 brew "redo"
 brew "ripgrep"
+brew "rizin"
 brew "rga"
 brew "ruby-build"
 #brew "rust" #Let's try just using rustup.
@@ -210,6 +212,11 @@ cask "docker"
 ### Database
 cask "db-browser-for-sqlite"
 cask "postgres-unofficial" # https://postgresapp.com/
+
+### Hex Editors/Reverse Engineering
+cask "cutter"
+cask "imhex"
+# See also: rizin, hexyl
 
 ### IDEs/Text Editors
 cask "nova" #trial
