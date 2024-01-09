@@ -181,6 +181,7 @@ cask "raycast"
 cask "rectangle"
 cask "silicon"
 cask "shortcat"
+cask "trex"
 
 ## Markdown, Notes & PKM
 cask "joplin"
