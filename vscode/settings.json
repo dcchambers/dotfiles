@@ -3,5 +3,7 @@
     "window.zoomLevel": 1,
     "editor.renderWhitespace": "all",
     "editor.tabSize": 2,
-    "editor.accessibilitySupport": "off"
+    "editor.accessibilitySupport": "off",
+    "editor.fontVariations": false,
+    "editor.guides.indentation": false
 }
