@@ -225,6 +225,7 @@ cask "imhex"
 cask "nova" #trial
 cask "textbuddy" #Trial. Purchase --> https://retina.studio/
 cask "visual-studio-code"
+cask "zed"
 
 ### Misc
 cask "chefdk"
