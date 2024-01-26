@@ -253,6 +253,7 @@ cask "google-chrome-canary"
 cask "orion"
 
 ## To-be categorized
+cask "anki"
 cask "basictex"
 cask "inkscape"
 #cask "keybase
