@@ -178,6 +178,8 @@ cask "itsycal"
 ## MacOS Productivity
 #cask "alfred"
 #cask "background-music" 
+cask "alt-tab"
+cask "command-x"
 cask "flux"
 cask "lunar"
 cask "only-switch"
