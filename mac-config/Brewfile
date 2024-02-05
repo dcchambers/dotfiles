@@ -141,7 +141,7 @@ brew "sttr"
 brew "task"
 brew "tealdeer" #tldr.sh rust implementation
 brew "terminal-notifier"
-brew "tinygo-org/tools/tinygo" 
+brew "tinygo-org/tools/tinygo"
 brew "tmux"
 brew "timewarrior"
 brew "transmission-cli"
@@ -155,6 +155,7 @@ brew "yarn"
 brew "youtube-dl"
 brew "yt-dlp"
 brew "yq"
+brew "zellij"
 brew "zoxide" #From: https://github.com/ajeetdsouza/zoxide - See also: https://github.com/rupa/z
 
 # Casks (Graphical .app programs)
@@ -177,7 +178,7 @@ cask "itsycal"
 
 ## MacOS Productivity
 #cask "alfred"
-#cask "background-music" 
+#cask "background-music"
 cask "alt-tab"
 cask "command-x"
 cask "flux"
