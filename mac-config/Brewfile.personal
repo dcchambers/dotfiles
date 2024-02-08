@@ -21,7 +21,7 @@ cask "discord"
 cask "google-chrome"
 cask "heynotes"
 cask "inkscape"
-cask "ollama"
+cask "ollama" #NOTE: do not use ollama formula if using the ollama cask. Cask provides a GUI app to install/manage the CLI.
 cask "postgres-unofficial"
 cask "private-internet-access"
 cask "krita"
