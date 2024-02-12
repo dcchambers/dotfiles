@@ -264,6 +264,7 @@ cask "basictex"
 cask "inkscape"
 #cask "keybase
 cask "maestral" #dropbox client
+cask "tomatobar"
 #cask "zoom" #Managed by IT dept
 
 # Mac App Store (via mas)
