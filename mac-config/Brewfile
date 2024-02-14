@@ -248,6 +248,9 @@ cask "obs"
 ## Terminal
 cask "warp"
 
+## Todo
+cask "superlist"
+
 ## Web
 cask "arc"
 cask "fastmarks" #Trial. Purchase --> https://retina.studio/
