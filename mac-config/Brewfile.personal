@@ -11,8 +11,6 @@ brew "achannarasappa/tap/ticker"
 brew "borgbackup"
 brew "borgmatic"
 brew "cooklang/tap/cook"
-brew "k9s"
-brew "krew"
 brew "kubectx"
 brew "tarkah/tickrs/tickrs"
 
