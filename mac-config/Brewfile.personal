@@ -25,13 +25,7 @@ cask "ollama" #NOTE: do not use ollama formula if using the ollama cask. Cask pr
 cask "postgres-unofficial"
 cask "private-internet-access"
 cask "krita"
+cask "setapp" #See setapp.txt for list of apps installed via setapp.
 cask "steam"
 cask "steamcmd"
 cask "zoom"
-
-# SetApp
-cask "setapp"
-# Apps installed via setapp:
-# bartender
-# devutils
-# xnapper
