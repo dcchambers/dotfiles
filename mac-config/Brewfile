@@ -248,6 +248,7 @@ cask "warp"
 
 ## Todo
 cask "superlist"
+cask "reminders-menubar"
 
 ## Web
 cask "arc"
