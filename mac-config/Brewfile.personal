@@ -26,4 +26,5 @@ cask "krita"
 cask "setapp" #See setapp.txt for list of apps installed via setapp.
 cask "steam"
 cask "steamcmd"
+cask "whatsapp"
 cask "zoom"
