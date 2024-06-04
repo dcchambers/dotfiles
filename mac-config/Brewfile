@@ -244,6 +244,7 @@ cask "kap"
 cask "obs"
 
 ## Terminal
+cask "alacritty"
 cask "warp"
 
 ## Todo
