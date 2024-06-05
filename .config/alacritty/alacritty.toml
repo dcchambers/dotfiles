@@ -12,17 +12,17 @@ import = [
 size = 16
 
 [font.bold]
-family = "MonaspiceAr Nerd Font"
+family = "JetbrainsMono Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
-family = "MonaspiceAr Nerd Font"
+family = "JetbrainsMono Nerd Font"
 style = "Bold Italic"
 
 [font.italic]
-family = "MonaspiceAr Nerd Font"
+family = "JetbrainsMono Nerd Font"
 style = "Italic"
 
 [font.normal]
-family = "MonaspiceAr Nerd Font"
+family = "JetbrainsMono Nerd Font"
 style = "Regular"
