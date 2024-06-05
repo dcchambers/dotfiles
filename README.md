@@ -8,23 +8,6 @@
   - Use the included `create-symlinks.sh` script.
   - Or `ln -sv /path/to/a/dotfile ~` will create a symlink to your home directory, where most programs expect dotfiles to be.
 
-## Categories
-
-### Shell Stuff
-
-- [`.bash_profile`](./.bash_profile)
-- [`.tmux.conf`](./.tmux.conf)
-
-### Editors
-
-- [`.vimrc`](./.vimrc)
-
-### CLI Tools
-
-- [`.ticker.yaml`](./.ticker.yaml)
-- [`noterc`](./.config/notekeeper/noterc)
-- [`.newsboat/urls`](./.newsboat/urls)
-
 ## Mac Config
 
 Brewfile and scripts to bootstrap a fresh Mac install.
@@ -62,13 +45,22 @@ The script sets up a ssh key, configures git, downloads dotfiles, installs homeb
   $ brew bundle install --file Brewfile.personal
   ```
 
-## Other Specifications
+## Specifications
 
-- These dotfiles are *mac-focused* and partially share config between several
+- These dotfiles are *mac-focused* and built to share some config between several
   machines.
   - My personal mac is a 13" 2015 MBP (Intel) running MacOS Monterey.
   - My work mac is a 16" 2021 MBP (M1 Pro) running MacOS Monterey.
-- I use `Terminal.app`, the standard MacOS terminal emulator.
-- Bash is my preferred shell, although I experiment with zsh and fish shell as
-  well.
-- My color scheme is [Monokai Pro](https://github.com/dcchambers/macos-terminal-themes/blob/master/schemes/Monokai%20Pro%20\(Filter%20Spectrum\).terminal) although that does change occasionally. ([Screenshot](https://github.com/dcchambers/macos-terminal-themes/blob/master/screenshots/monokai_pro__filter_spectrum_.terminal.png))
+- For years my go-to terminal/shell solution has been:
+  - `Terminal.app`, the standard MacOS terminal emulator.
+  - bash
+  - tmux
+  - vim
+  - [Monokai Pro](https://github.com/dcchambers/macos-terminal-themes/blob/master/schemes/Monokai%20Pro%20\(Filter%20Spectrum\).terminal) ([Screenshot](https://github.com/dcchambers/macos-terminal-themes/blob/master/screenshots/monokai_pro__filter_spectrum_.terminal.png))
+- But in 2024 I am trying something new:
+  - [Alacritty](https://alacritty.org/)
+  - zsh
+  - zellij
+  - neovim
+  - [Monokai Pro](https://github.com/alacritty/alacritty-theme/blob/master/themes/monokai_pro.toml) ([Screenshot](https://github.com/alacritty/alacritty-theme/blob/master/images/monokai_pro.png))
+    - I used Solarized light pretty much everywhere except for my terminal.
