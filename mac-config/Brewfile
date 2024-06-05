@@ -221,6 +221,10 @@ cask "docker"
 cask "db-browser-for-sqlite"
 cask "postgres-unofficial" # https://postgresapp.com/
 
+### Fonts
+cask "font-jetbrains-mono-nerd-font"
+cask "font-monaspace-nerd-font"
+
 ### Hex Editors/Reverse Engineering
 cask "cutter"
 cask "imhex"
