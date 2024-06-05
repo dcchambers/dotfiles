@@ -1,11 +1,13 @@
+# misc 
 live_config_reload = true
 
-#theme
+# theme
+# from https://github.com/alacritty/alacritty-theme
 import = [
     "~/.config/alacritty/themes/monokai_pro.toml"
 ]
 
-#font
+# font
 [font]
 size = 16
 
