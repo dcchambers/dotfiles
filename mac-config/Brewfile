@@ -90,6 +90,7 @@ brew "kubie"
 brew "kustomize"
 brew "krew"
 brew "lastpass-cli"
+brew "lazygit"
 brew "libyaml" #needed for rbenv/ruby-build
 brew "lnav"
 brew "lynx"
