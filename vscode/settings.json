@@ -5,5 +5,7 @@
     "editor.tabSize": 2,
     "editor.accessibilitySupport": "off",
     "editor.fontVariations": false,
-    "editor.guides.indentation": false
+    "editor.guides.indentation": false,
+    "go.toolsManagement.autoUpdate": true,
+    "files.insertFinalNewline": true
 }
