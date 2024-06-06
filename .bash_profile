@@ -10,13 +10,13 @@ eval $(/opt/homebrew/bin/brew shellenv)
 
 BREW_PREFIX="/opt/homebrew"
 if type brew &>/dev/null; then
-  if [[ -r "${BREW_PREFIX}/etc/profile.d/bash_completion.sh" ]]; then
-    source "${BREW_PREFIX}/etc/profile.d/bash_completion.sh"
-  else
-    for COMPLETION in "${BREW_PREFIX}/etc/bash_completion.d/"*; do
-      [[ -r "$COMPLETION" ]] && source "$COMPLETION"
-    done
-  fi
+	if [[ -r "${BREW_PREFIX}/etc/profile.d/bash_completion.sh" ]]; then
+		source "${BREW_PREFIX}/etc/profile.d/bash_completion.sh"
+	else
+		for COMPLETION in "${BREW_PREFIX}/etc/bash_completion.d/"*; do
+			[[ -r "$COMPLETION" ]] && source "$COMPLETION"
+		done
+	fi
 fi
 
 # Source git bash autocomplete. For some reason the above doesn't work properly.
@@ -89,7 +89,7 @@ export PATH="~/.local/bin:$PATH"
 ###########################
 
 ###########################
-# Postgres 
+# Postgres
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 ###########################
 
@@ -108,7 +108,7 @@ alias gcm='git commit -m'
 alias la='ls -al'
 alias pip='/usr/local/bin/pip3'
 alias python='/usr/local/bin/python3' #Make python 3.x default.
-alias wid='vim ~/Code/zendesk/work-notes/misc/whatidid.md' # dead simple work tracking for non-jira stuff
+alias v='nvim'
 # END Aliases
 ###########################
 
@@ -116,12 +116,12 @@ alias wid='vim ~/Code/zendesk/work-notes/misc/whatidid.md' # dead simple work tr
 # Work Stuff
 # Load Work Config
 if [ $(hostname) = "QCM262HV7N" ]; then
-    if [ -f ~/.bash_profile.zendesk ]; then
-        source ~/.bash_profile.zendesk
-        echo "✔ Zendesk configuration loaded"
-    else
-        echo "✗ Unable to load Zendesk configuration"
-    fi
+	if [ -f ~/.bash_profile.zendesk ]; then
+		source ~/.bash_profile.zendesk
+		echo "✔ Zendesk configuration loaded"
+	else
+		echo "✗ Unable to load Zendesk configuration"
+	fi
 fi
 # END Work Stuff
 ###########################
