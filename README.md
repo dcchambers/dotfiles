@@ -59,8 +59,8 @@ The script sets up a ssh key, configures git, downloads dotfiles, installs homeb
   - [Monokai Pro](https://github.com/dcchambers/macos-terminal-themes/blob/master/schemes/Monokai%20Pro%20\(Filter%20Spectrum\).terminal) ([Screenshot](https://github.com/dcchambers/macos-terminal-themes/blob/master/screenshots/monokai_pro__filter_spectrum_.terminal.png))
 - But in 2024 I am trying something new:
   - [Alacritty](https://alacritty.org/)
-  - zsh
   - zellij
+  - bash (still)
   - neovim
   - [Monokai Pro](https://github.com/alacritty/alacritty-theme/blob/master/themes/monokai_pro.toml) ([Screenshot](https://github.com/alacritty/alacritty-theme/blob/master/images/monokai_pro.png))
-    - I used Solarized light pretty much everywhere except for my terminal.
+    - I use Solarized light pretty much everywhere except for my terminal.
