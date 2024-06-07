@@ -100,6 +100,7 @@ brew "mark" # kovetskiy/mark
 brew "mas"
 brew "micro"
 brew "minikube"
+brew "mise"
 brew "mkcert"
 brew "most"
 brew "neofetch"
