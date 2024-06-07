@@ -1,6 +1,6 @@
-Bartender
-DevUtils
-Xnapper
-Dash
-TablePlus
+CleanShot X
 Craft
+Dash
+DevUtils
+TablePlus
+Xnapper
