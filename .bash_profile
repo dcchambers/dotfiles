@@ -106,6 +106,7 @@ alias gcl='git config --list'
 alias gcm='git commit -m'
 # MacOS Python Fix (Python 3 installed with Brew. Python 2 default included in MacOS.)
 alias la='ls -al'
+alias n='nvim'
 alias pip='/usr/local/bin/pip3'
 alias python='/usr/local/bin/python3' #Make python 3.x default.
 alias v='nvim'
