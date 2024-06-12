@@ -2,5 +2,6 @@ CleanShot X
 Craft
 Dash
 DevUtils
+PopClip
 TablePlus
 Xnapper
