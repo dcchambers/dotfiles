@@ -11,6 +11,7 @@ mkdir -p ~/.config/nvim
 mkdir -p ~/.config/nvim/lua
 mkdir -p ~/.config/nvim/lua/config
 mkdir -p ~/.config/nvim/lua/plugins
+mkdir -p ~/.config/zed
 mkdir -p ~/.gnupg
 mkdir -p ~/Library/Application\ Support/Code/User
 mkdir -p ~/.newsboat
@@ -27,6 +28,7 @@ ln -sv $PWD/.config/alacritty/themes/monokai_pro.toml     ~/.config/alacritty/th
 ln -sv $PWD/.config/alacritty/themes/solarized_light.toml ~/.config/alacritty/themes/solarized_light.toml
 ln -sv $PWD/.config/gh/config.yml                         ~/.config/gh/config.yml
 ln -sv $PWD/.config/notekeeper/noterc                     ~/.config/notekeeper/noterc
+ln -sv $PWD/.config/zed/settings.json                     ~/.config/zed/settings.json
 ln -sv $PWD/lazyvim/init.lua                      ~/.config/nvim/init.lua
 ln -sv $PWD/lazyvim/lua/config/autocmds.lua       ~/.config/nvim/lua/config/autocmds.lua
 ln -sv $PWD/lazyvim/lua/config/keymaps.lua        ~/.config/nvim/lua/config/keymaps.lua
