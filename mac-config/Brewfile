@@ -254,7 +254,8 @@ cask "obs"
 
 ## Terminal
 cask "alacritty"
-cask "warp"
+cask "wezterm"
+# cask "warp"
 
 ## Todo
 cask "superlist"
