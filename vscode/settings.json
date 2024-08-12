@@ -7,5 +7,7 @@
     "editor.fontVariations": false,
     "editor.guides.indentation": false,
     "go.toolsManagement.autoUpdate": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "top"
 }
