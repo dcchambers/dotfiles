@@ -132,4 +132,23 @@ fi
 source ~/.bashrc
 ###########################
 
-echo "✔ .bash_profile loaded"
+printf "✔ .bash_profile loaded\n\n"
+
+# Get the current hour in 24-hour format
+hour=$(date +"%H")
+
+# Define time ranges
+morning_start=4    # 4 AM
+afternoon_start=12 # 12 PM
+evening_start=17   # 5 PM
+
+# Check the time of day and print a message
+if [ "$hour" -ge "$morning_start" ] && [ "$hour" -lt "$afternoon_start" ]; then
+    greeting="Good morning"
+elif [ "$hour" -ge "$afternoon_start" ] && [ "$hour" -lt "$evening_start" ]; then
+    greeting="Good afternoon"
+else
+    greeting="Good evening"
+fi
+
+printf "$greeting, Dakota\n\n"
