@@ -20,6 +20,7 @@
 [core]
   ignorecase = false
   editor = nvim
+  pager = delta
 
 [url "ssh://git@github.com/"]
   insteadOf = https://github.com/
