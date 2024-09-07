@@ -1,3 +1,4 @@
+BoltAI
 CleanShot X
 Craft
 Dash
