@@ -259,8 +259,9 @@ cask "wezterm"
 # cask "warp"
 
 ## Todo
-cask "superlist"
 cask "reminders-menubar"
+cask "superlist"
+cask "ticktick"
 
 ## Web
 cask "arc"
