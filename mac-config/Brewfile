@@ -267,8 +267,6 @@ cask "ticktick"
 cask "arc"
 cask "fastmarks" #Trial. Purchase --> https://retina.studio/
 cask "firefox"
-cask "firefox-developer-edition"
-#cask "firefox-nightly"
 #cask "google-chrome" #Moved to personal.Brewfile
 cask "google-chrome-canary"
 cask "orion"
