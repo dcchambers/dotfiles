@@ -249,6 +249,7 @@ cask "jordanbaird-ice"
 cask "vagrant"
 
 ## Screen Recording
+cask "cap"
 cask "flameshot"
 cask "kap"
 cask "obs"
