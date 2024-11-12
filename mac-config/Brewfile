@@ -207,7 +207,7 @@ cask "typora"
 
 ## Media
 cask "iina"
-cask "newnewswire"
+cask "netnewswire"
 cask "transmission"
 cask "vlc"
 
