@@ -22,6 +22,11 @@
   editor = nvim
   pager = delta
 
+[delta]
+  line-numbers = true
+  dark = true
+  hunk-header-style=omit
+
 [url "ssh://git@github.com/"]
   insteadOf = https://github.com/
 
