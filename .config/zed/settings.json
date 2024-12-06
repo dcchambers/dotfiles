@@ -7,6 +7,9 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "inline_completions": {
+    "disabled_globs": [".env", "_pages/now.md"]
+  },
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
@@ -22,6 +25,9 @@
   "buffer_font_size": 16,
   "tab_size": 2,
   "languages": {
+    "Markdown": {
+      "show_inline_completions": true
+    },
     "Ruby": {
       "language_servers": ["ruby-lsp", "..."]
     }
