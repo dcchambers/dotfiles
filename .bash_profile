@@ -3,7 +3,7 @@
 ###################
 
 ###########################
-# Bash Autocompletion
+# START Bash Autocompletion
 
 # Homebrew
 eval $(/opt/homebrew/bin/brew shellenv)
@@ -27,11 +27,11 @@ source ${BREW_PREFIX}/etc/bash_completion.d/git-completion.bash
 ###########################
 
 ###########################
-# MISC Stuff
+# START MISC
 # Colors
 export TERM='xterm-256color'
 
-# custom bash prompt
+# bash prompt
 export PS1="\[\033[0;35m\]\t\[\033[0m\]\[\033[0;36m\] \w\[\033[0m\]\[\033[0;31m\] ❱❱ \[\033[0m\]"
 
 # Increase Bash History Size (Default 500)
@@ -53,11 +53,11 @@ source $HOME/.cargo/env
 
 # set up Python stuff
 # Add Python 2 stuff to PATH
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages:${PATH}"
-export PATH
+#PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages:${PATH}"
+#export PATH
 
 # set default EDITOR
-export EDITOR=/opt/homebrew/bin/vim
+export EDITOR=/opt/homebrew/bin/nvim
 
 # set GPG_TTY to sign git commits.
 export GPG_TTY=$(tty)
@@ -72,8 +72,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # Java
 #sdkman
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+#export SDKMAN_DIR="$HOME/.sdkman"
+#[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # END Programming
 ###########################
@@ -95,43 +95,18 @@ export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
 ###########################
 # Aliases
-alias be='bundle exec'
-alias c='clear'
-alias cim='vim' # I typo this a lot...
-alias exa="exa --icons" #Always show icons when using the exa command
-alias g='git'
-alias gd='git diff --color=always' #color=always preserves colors when piping to less
-alias gds='git diff --staged --color=always | less -R'
-alias gcd='git commit -m $(date +%Y-%m-%d)'
-alias gcl='git config --list'
-alias gcm='git commit -m'
-# MacOS Python Fix (Python 3 installed with Brew. Python 2 default included in MacOS.)
-alias la='ls -al'
-alias n='nvim'
-alias pip='/usr/local/bin/pip3'
-alias python='/usr/local/bin/python3' #Make python 3.x default.
-alias v='nvim'
-# END Aliases
+source ~/.bash_aliases
 ###########################
 
 ###########################
-# Work Stuff
-# Load Work Config
-if [ $(hostname) = "QCM262HV7N" ]; then
-	if [ -f ~/.bash_profile.zendesk ]; then
-		source ~/.bash_profile.zendesk
-		echo "✔ Zendesk configuration loaded"
-	else
-		echo "✗ Unable to load Zendesk configuration"
-	fi
-fi
-# END Work Stuff
-###########################
-
-###########################
-#bashrc
+# bashrc
+# MacOS uses .bash_profile for all login and interactive shells, so it's easiest to just
+# source .bashrc as some programs expect configuration in .bashrc instead of bash_profile.
 source ~/.bashrc
 ###########################
+
+###########################
+# Start Greeting
 
 printf "✔ .bash_profile loaded\n\n"
 
@@ -153,3 +128,6 @@ else
 fi
 
 printf "$greeting, Dakota\n\n"
+
+# END Greeting
+###########################
