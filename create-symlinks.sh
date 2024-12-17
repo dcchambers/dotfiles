@@ -29,13 +29,13 @@ ln -sv $PWD/.config/alacritty/themes/solarized_light.toml ~/.config/alacritty/th
 ln -sv $PWD/.config/gh/config.yml                         ~/.config/gh/config.yml
 ln -sv $PWD/.config/notekeeper/noterc                     ~/.config/notekeeper/noterc
 ln -sv $PWD/.config/zed/settings.json                     ~/.config/zed/settings.json
-ln -sv $PWD/lazyvim/init.lua                      ~/.config/nvim/init.lua
-ln -sv $PWD/lazyvim/lua/config/autocmds.lua       ~/.config/nvim/lua/config/autocmds.lua
-ln -sv $PWD/lazyvim/lua/config/keymaps.lua        ~/.config/nvim/lua/config/keymaps.lua
-ln -sv $PWD/lazyvim/lua/config/lazy.lua           ~/.config/nvim/lua/config/lazy.lua
-ln -sv $PWD/lazyvim/lua/config/options.lua        ~/.config/nvim/lua/config/options.lua
-ln -sv $PWD/lazyvim/lua/plugins/example.lua       ~/.config/nvim/lua/plugins/example.lua
-ln -sv $PWD/lazyvim/stylua.toml                   ~/.config/nvim/stylua.toml
+ln -sv $PWD/lazyvim/init.lua                              ~/.config/nvim/init.lua
+ln -sv $PWD/lazyvim/lua/config/autocmds.lua               ~/.config/nvim/lua/config/autocmds.lua
+ln -sv $PWD/lazyvim/lua/config/keymaps.lua                ~/.config/nvim/lua/config/keymaps.lua
+ln -sv $PWD/lazyvim/lua/config/lazy.lua                   ~/.config/nvim/lua/config/lazy.lua
+ln -sv $PWD/lazyvim/lua/config/options.lua                ~/.config/nvim/lua/config/options.lua
+ln -sv $PWD/lazyvim/lua/plugins/example.lua               ~/.config/nvim/lua/plugins/example.lua
+ln -sv $PWD/lazyvim/stylua.toml                           ~/.config/nvim/stylua.toml
 ln -sv $PWD/.gnupg/gpg-agent.conf                         ~/.gnupg/gpg-agent.conf
 ln -sv $PWD/vscode/settings.json                          ~/Library/Application\ Support/Code/User/settings.json
 ln -sv $PWD/.newsboat/urls                                ~/.newsboat/urls
