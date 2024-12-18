@@ -51,6 +51,6 @@ The script sets up a ssh key, configures git, downloads dotfiles, installs homeb
 
 - These dotfiles are *mac-focused* and built to share some config between several
   machines. I recently separated my dotfiles for my work computer into a separate private repostitory because sharing configurationw was getting messy.
-  - 2022 13" Macbook Air (M2)
-  - 2024 Mac Mini (M4)
+  - 2022 M2 Macbook Air 13"
+  - 2024 M4 Mac Mini
 - For details about the programs I use, see [my /uses page](https://chambers.io/uses)
