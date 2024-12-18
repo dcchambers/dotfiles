@@ -2,7 +2,7 @@
 
 # Use this script to automatically create symlinks to the user home directory.
 
-DOTFILE_DIR=/Users/$(whoami)/Code/dotfiles
+DOTFILE_DIR=$HOME/Code/dotfiles
 
 mkdir -p ~/.config
 mkdir -p ~/.config/alacritty
@@ -20,7 +20,7 @@ mkdir -p ~/Library/Application\ Support/Code/User
 
 ln -sv $DOTFILE_DIR/.bash_aliases                                 ~/.bash_aliases
 ln -sv $DOTFILE_DIR/.bash_profile                                 ~/.bash_profile
-ln -sv $DOTFILE_DIR/.bashrc                                       ~/.bashrcgit
+ln -sv $DOTFILE_DIR/.bashrc                                       ~/.bashrc
 ln -sv $DOTFILE_DIR/.cobra.yaml                                   ~/.cobra.yaml
 ln -sv $DOTFILE_DIR/.config/alacritty/alacritty.toml              ~/.config/alacritty/alacritty.toml
 ln -sv $DOTFILE_DIR/.config/alacritty/themes/monokai_pro.toml     ~/.config/alacritty/themes/monokai_pro.toml
