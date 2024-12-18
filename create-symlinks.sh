@@ -3,7 +3,7 @@
 # Use this script to automatically create symlinks to `~` for *everything* in this repo.
 #
 
-DOTFILE_DIR=/Users/$(whoami)/Code/dotfiles`
+DOTFILE_DIR=/Users/$(whoami)/Code/dotfiles
 
 mkdir -p ~/.config
 mkdir -p ~/.config/alacritty
