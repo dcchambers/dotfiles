@@ -41,12 +41,12 @@ export HISTSIZE=2000
 ###########################
 
 ###########################
-# START Programming Stuff
+# START Misc Programming
 
 # GOLANG
 #export PATH=$PATH:$(go env GOPATH)/bin
 
-# RUBTY
+# RUBY
 eval "$(rbenv init -)"
 
 # RUST
@@ -66,7 +66,7 @@ export GPG_TTY=$(tty)
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-# END Programming
+# END Misc Programming
 ###########################
 
 ###########################
