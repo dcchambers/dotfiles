@@ -41,15 +41,16 @@ export HISTSIZE=2000
 ###########################
 
 ###########################
-# Programming Stuff
-# Add GOPATH/bin directory to system PATH.
-export PATH=$PATH:$(go env GOPATH)/bin
+# START Programming Stuff
 
-# set up ruby env
+# GOLANG
+#export PATH=$PATH:$(go env GOPATH)/bin
+
+# RUBTY
 eval "$(rbenv init -)"
 
-# set up Rust stuff
-source $HOME/.cargo/env
+# RUST
+#source $HOME/.cargo/env
 
 # set up Python stuff
 # Add Python 2 stuff to PATH
