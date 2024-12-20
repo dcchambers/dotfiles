@@ -246,6 +246,7 @@ cask "chefdk"
 cask "dash"
 cask "gitify"
 cask "google-cloud-sdk"
+cask "hey"
 cask "jordanbaird-ice"
 cask "vagrant"
 
