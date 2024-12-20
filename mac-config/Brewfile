@@ -1,8 +1,10 @@
 # Taps
 tap "abhimanyu003/sttr"
+tap "achannarasappa/tap"
 tap "ankitpokhrel/jira-cli"
 tap "charmbracelet/tap"
 tap "chef/chef"
+tap "cooklang/tap"
 tap "cue-lang/tap"
 tap "dcchambers/tap"
 tap "eth-p/software"
@@ -17,6 +19,7 @@ tap "homebrew/core"
 tap "homeport/tap"
 tap "kovetskiy/mark"
 tap "noahgorstein/tap"
+tap "tarkah/tickrs"
 tap "teamookla/speedtest"
 tap "tinygo-org/tools"
 tap "vmware-tanzu/carvel"
@@ -24,14 +27,18 @@ tap "vmware-tanzu/carvel"
 # Brew Formula (CLI tools)
 brew "act"
 brew "age"
+brew "achannarasappa/tap/ticker"
 brew "ankitpokhrel/jira-cli/jira-cli"
 brew "asciinema"
 brew "awscli"
 brew "bash"
 brew "bash-completion@2"
 brew "bat"
+brew "borgbackup"
+brew "borgmatic"
 brew "charmbracelet/tap/skate"
 brew "chrome-cli"
+brew "cooklang/tap/cook"
 brew "crane" # https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md
 brew "crystal"
 brew "cue-lang/tap/cue"
@@ -86,6 +93,7 @@ brew "jql"
 brew "k9s"
 brew "kapp" # vmware-tanzu/carvel/kapp
 brew "kpt" # googlecontainertools/kpt/kpt
+brew "kubectx"
 brew "kubernetes-cli" #Minikube dependency, but useful to list still
 brew "kubie"
 brew "kustomize"
@@ -142,6 +150,7 @@ brew "speedtest-cli" #From github.com/sivel/speedtest-cli
 brew "sqlite"
 brew "sshuttle"
 brew "sttr"
+brew "tarkah/tickrs/tickrs"
 brew "task"
 brew "tealdeer" #tldr.sh rust implementation
 brew "terminal-notifier"
@@ -181,6 +190,8 @@ cask "numi"
 cask "itsycal"
 
 ## MacOS Productivity
+cask "1password"
+cask "1password-cli"
 #cask "alfred"
 #cask "background-music"
 cask "alt-tab"
@@ -241,12 +252,17 @@ cask "textbuddy" #Trial. Purchase --> https://retina.studio/
 cask "visual-studio-code"
 cask "zed"
 
+### Messaging
+cask "discord"
+cask "hey"
+cask "whatsapp"
+
 ### Misc
 cask "chefdk"
 cask "dash"
 cask "gitify"
 cask "google-cloud-sdk"
-cask "hey"
+
 cask "jordanbaird-ice"
 cask "vagrant"
 
@@ -268,16 +284,26 @@ cask "ticktick"
 cask "arc"
 cask "fastmarks" #Trial. Purchase --> https://retina.studio/
 cask "firefox"
-#cask "google-chrome" #Moved to personal.Brewfile
+cask "google-chrome"
 cask "google-chrome-canary"
 cask "orion"
 
 ## To-be categorized
 cask "anki"
 cask "basictex"
+cask "heynotes"
 cask "inkscape"
+cask "ollama" #NOTE: do not use ollama formula if using the ollama cask. Cask provides a GUI app to install/manage the CLI.
 #cask "keybase
+cask "krita"
+cask "lm-studio"
 cask "maestral" #dropbox client
+cask "postgres-unofficial"
+cask "private-internet-access"
+cask "setapp" #See setapp.txt for list of apps installed via setapp.
+cask "steam"
+cask "steamcmd"
+cask "tailscale"
 cask "tomatobar"
 #cask "zoom" #Managed by IT dept
 
