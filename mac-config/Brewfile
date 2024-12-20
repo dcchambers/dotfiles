@@ -17,7 +17,6 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homeport/tap"
-tap "kovetskiy/mark"
 tap "noahgorstein/tap"
 tap "tarkah/tickrs"
 tap "teamookla/speedtest"
@@ -89,7 +88,6 @@ brew "jless"
 brew "joplin-cli"
 brew "jq"
 brew "jql"
-#brew "jsonnet" #Conflicts with go-jsonnet
 brew "k9s"
 brew "kapp" # vmware-tanzu/carvel/kapp
 brew "kpt" # googlecontainertools/kpt/kpt
@@ -101,11 +99,10 @@ brew "krew"
 brew "lastpass-cli"
 brew "lazydocker"
 brew "lazygit"
-brew "libyaml" #needed for rbenv/ruby-build
+brew "libyaml" # needed for rbenv/ruby-build
 brew "lnav"
 brew "lynx"
 brew "m-cli"
-brew "mark" # kovetskiy/mark
 brew "mas"
 brew "micro"
 brew "minikube"
@@ -138,21 +135,21 @@ brew "ripgrep"
 brew "rizin"
 brew "rga"
 brew "ruby-build"
-#brew "rust" #Let's try just using rustup.
+#brew "rust" # Install with rustup instead.
 brew "rustup-init"
 brew "saml2aws"
 brew "scc"
 brew "shellcheck"
 brew "silicon"
 brew "slides"
-brew "speedtest" #Official Ookla speedtest
-brew "speedtest-cli" #From github.com/sivel/speedtest-cli
+brew "speedtest" # Official Ookla speedtest
+brew "speedtest-cli" # From github.com/sivel/speedtest-cli
 brew "sqlite"
 brew "sshuttle"
 brew "sttr"
 brew "tarkah/tickrs/tickrs"
 brew "task"
-brew "tealdeer" #tldr.sh rust implementation
+brew "tealdeer" # tldr.sh rust implementation
 brew "terminal-notifier"
 brew "tinygo-org/tools/tinygo"
 brew "tmux"
@@ -169,11 +166,12 @@ brew "youtube-dl"
 brew "yt-dlp"
 brew "yq"
 brew "zellij"
-brew "zoxide" #From: https://github.com/ajeetdsouza/zoxide - See also: https://github.com/rupa/z
+brew "zoxide" # See also: https://github.com/rupa/z
 
 # Casks (Graphical .app programs)
 
 ## Audio
+#cask "background-music"
 cask "eqmac"
 cask "soundsource"
 
@@ -192,8 +190,6 @@ cask "itsycal"
 ## MacOS Productivity
 cask "1password"
 cask "1password-cli"
-#cask "alfred"
-#cask "background-music"
 cask "alt-tab"
 cask "command-x"
 cask "flux"
@@ -207,7 +203,6 @@ cask "trex"
 
 ## Markdown, Notes & PKM
 cask "joplin"
-#cask "logseq"
 cask "macdown"
 cask "mark-text"
 cask "marked"
@@ -231,7 +226,7 @@ cask "rapidapi"
 
 ### Containers/Kubernetes
 cask "docker"
-#cask "rancher" #Conflicts with existing k8s stuff.
+#cask "rancher" # Conflicts with existing k8s stuff.
 
 ### Database
 cask "db-browser-for-sqlite"
@@ -247,8 +242,8 @@ cask "imhex"
 # See also: rizin, hexyl
 
 ### IDEs/Text Editors
-cask "nova" #trial
-cask "textbuddy" #Trial. Purchase --> https://retina.studio/
+cask "nova" # Trial
+cask "textbuddy" # Trial. Purchase --> https://retina.studio/
 cask "visual-studio-code"
 cask "zed"
 
@@ -266,6 +261,9 @@ cask "google-cloud-sdk"
 cask "jordanbaird-ice"
 cask "vagrant"
 
+### Productivity
+cask "ticktick"
+
 ## Screen Recording
 cask "cap"
 cask "flameshot"
@@ -275,14 +273,10 @@ cask "obs"
 ## Terminal
 cask "alacritty"
 cask "wezterm"
-# cask "warp"
-
-## Todo
-cask "ticktick"
 
 ## Web
 cask "arc"
-cask "fastmarks" #Trial. Purchase --> https://retina.studio/
+cask "fastmarks" # Trial. Purchase --> https://retina.studio/
 cask "firefox"
 cask "google-chrome"
 cask "google-chrome-canary"
@@ -293,19 +287,15 @@ cask "anki"
 cask "basictex"
 cask "heynotes"
 cask "inkscape"
-cask "ollama" #NOTE: do not use ollama formula if using the ollama cask. Cask provides a GUI app to install/manage the CLI.
-#cask "keybase
+cask "ollama" # Provides a GUI app to install/manage the ollama cli
+#cask "keybase"
 cask "krita"
 cask "lm-studio"
-cask "maestral" #dropbox client
+cask "maestral" # dropbox client
 cask "postgres-unofficial"
 cask "private-internet-access"
-cask "setapp" #See setapp.txt for list of apps installed via setapp.
+cask "setapp" # See setapp.txt
 cask "steam"
 cask "steamcmd"
 cask "tailscale"
 cask "tomatobar"
-#cask "zoom" #Managed by IT dept
-
-# Mac App Store (via mas)
-mas "Noteship", id: 1571711347
