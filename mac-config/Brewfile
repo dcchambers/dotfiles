@@ -262,8 +262,6 @@ cask "wezterm"
 # cask "warp"
 
 ## Todo
-cask "reminders-menubar"
-cask "superlist"
 cask "ticktick"
 
 ## Web
