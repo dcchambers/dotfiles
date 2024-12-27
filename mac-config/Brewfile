@@ -272,6 +272,7 @@ cask "obs"
 
 ## Terminal
 cask "alacritty"
+cask "ghostty"
 cask "wezterm"
 
 ## Web
