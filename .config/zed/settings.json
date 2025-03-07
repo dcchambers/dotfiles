@@ -7,33 +7,43 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+
+  // Zed UI/UX & General Config
+
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "tab_size": 2,
+  "project_panel": {
+    "dock": "right"
+  },
+  "theme": "Rosé Pine Dawn",
+    "format_on_save": "off",
+  "telemetry": {
+    "metrics": false
+  },
+
+  // Language-specific config
+
+  "languages": {
+    "Ruby": {
+      "language_servers": ["ruby-lsp", "..."]
+    }
+  },
+
+  //AI stuff
+
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
   "inline_completions": {
     "disabled_globs": [".env", "_pages/now.md"]
   },
   "assistant": {
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4o"
+      "provider": "google",
+      "model": "gemini-2.0-pro-exp"
     },
     "version": "2"
-  },
-  "theme": "Rosé Pine Dawn",
-  "telemetry": {
-    "metrics": false
-  },
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "tab_size": 2,
-  "languages": {
-    "Markdown": {
-      "show_inline_completions": true
-    },
-    "Ruby": {
-      "language_servers": ["ruby-lsp", "..."]
-    }
-  },
-  "project_panel": {
-    "dock": "right"
-  },
-  "format_on_save": "off"
+  }
+
 }
