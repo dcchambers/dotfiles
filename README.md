@@ -41,16 +41,11 @@ The script sets up a ssh key, configures git, downloads dotfiles, installs homeb
   ```
   $ brew bundle install
   ```
-- `Brewfile.personal` contains tools and applications I only want installed on
-  my personal machine.
-  ```
-  $ brew bundle install --file Brewfile.personal
-  ```
 
 ## Specifications
 
-- These dotfiles are *mac-focused* and built to share some config between several
-  machines. I recently separated my dotfiles for my work computer into a separate private repostitory because sharing configurationw was getting messy.
+- These dotfiles are *mac-focused* and built to share some config between several machines.
+  I recently separated my dotfiles for my work computer into a separate private repostitory because sharing configuration was getting messy.
   - 2022 M2 Macbook Air 13"
   - 2024 M4 Mac Mini
 - For details about the programs I use, see [my /uses page](https://chambers.io/uses)
