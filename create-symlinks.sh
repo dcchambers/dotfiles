@@ -8,6 +8,7 @@ mkdir -p ~/.config
 mkdir -p ~/.config/alacritty
 mkdir -p ~/.config/alacritty/themes
 mkdir -p ~/.config/gh
+mkdir -p ~/.config/ghostty
 mkdir -p ~/.config/notekeeper
 mkdir -p ~/.config/nvim
 mkdir -p ~/.config/nvim/lua
@@ -26,6 +27,7 @@ ln -sv $DOTFILE_DIR/.config/alacritty/alacritty.toml              ~/.config/alac
 ln -sv $DOTFILE_DIR/.config/alacritty/themes/monokai_pro.toml     ~/.config/alacritty/themes/monokai_pro.toml
 ln -sv $DOTFILE_DIR/.config/alacritty/themes/solarized_light.toml ~/.config/alacritty/themes/solarized_light.toml
 ln -sv $DOTFILE_DIR/.config/gh/config.yml                         ~/.config/gh/config.yml
+ln -sv $DOTFILE_DIR/.config/ghostty/config                        ~/.config/ghostty/config
 ln -sv $DOTFILE_DIR/.config/lazyvim/init.lua                      ~/.config/nvim/init.lua
 ln -sv $DOTFILE_DIR/.config/lazyvim/lua/config/autocmds.lua       ~/.config/nvim/lua/config/autocmds.lua
 ln -sv $DOTFILE_DIR/.config/lazyvim/lua/config/keymaps.lua        ~/.config/nvim/lua/config/keymaps.lua
