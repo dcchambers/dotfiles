@@ -246,6 +246,7 @@ cask "nova" # Trial
 cask "textbuddy" # Trial. Purchase --> https://retina.studio/
 cask "visual-studio-code"
 cask "zed"
+cask "zed@preview"
 
 ### Messaging
 cask "discord"
