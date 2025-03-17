@@ -24,8 +24,8 @@
 
 [delta]
   line-numbers = true
-  dark = true
   hunk-header-style=omit
+  syntax-theme = GitHub
 
 [url "ssh://git@github.com/"]
   insteadOf = https://github.com/
