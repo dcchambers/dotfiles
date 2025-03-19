@@ -8,7 +8,7 @@
 
 cask "background-music"
 cask "chefdk"
-cask "dash" # Setapp
+cask "dash" # Installed via Setapp
 cask "fastmarks"
 cask "flameshot"
 cask "google-chrome-canary"
@@ -16,7 +16,7 @@ cask "google-cloud-sdk"
 cask "insomnia"
 cask "keybase"
 cask "nova"
-cask "numi" # Setapp
+cask "numi" # Installed via Setapp
 cask "parsify"
 cask "postman"
 cask "private-internet-access"
