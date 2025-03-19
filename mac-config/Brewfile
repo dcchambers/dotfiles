@@ -171,18 +171,12 @@ brew "zoxide" # See also: https://github.com/rupa/z
 # Casks (Graphical .app programs)
 
 ## Audio
-#cask "background-music"
 cask "eqmac"
 cask "soundsource"
 
 ## Books/E-Readers
 cask "calibre"
 cask "remarkable"
-
-## Calculator
-cask "numi"
-#cask "parsify"
-#cask "soulver"
 
 ## Calendar
 cask "itsycal"
@@ -220,8 +214,6 @@ cask "vlc"
 ## Programming
 ### APIs
 cask "httpie"
-cask "insomnia"
-cask "postman"
 cask "rapidapi"
 
 ### Containers/Kubernetes
@@ -242,8 +234,6 @@ cask "imhex"
 # See also: rizin, hexyl
 
 ### IDEs/Text Editors
-cask "nova" # Trial
-cask "textbuddy" # Trial. Purchase --> https://retina.studio/
 cask "visual-studio-code"
 cask "zed"
 cask "zed@preview"
@@ -254,33 +244,24 @@ cask "hey"
 cask "whatsapp"
 
 ### Misc
-cask "chefdk"
-cask "dash"
 cask "gitify"
-cask "google-cloud-sdk"
-
 cask "jordanbaird-ice"
-cask "vagrant"
 
 ### Productivity
 cask "ticktick"
 
 ## Screen Recording
 cask "cap"
-cask "flameshot"
 cask "kap"
 cask "obs"
 
 ## Terminal
 cask "alacritty"
 cask "ghostty"
-cask "wezterm"
 
 ## Web
-cask "fastmarks" # Trial. Purchase --> https://retina.studio/
 cask "firefox"
 cask "google-chrome"
-cask "google-chrome-canary"
 cask "orion"
 
 ## To-be categorized
@@ -289,12 +270,10 @@ cask "basictex"
 cask "heynotes"
 cask "inkscape"
 cask "ollama" # Provides a GUI app to install/manage the ollama cli
-#cask "keybase"
 cask "krita"
 cask "lm-studio"
 cask "maestral" # dropbox client
 cask "postgres-unofficial"
-cask "private-internet-access"
 cask "setapp" # See setapp.txt
 cask "steam"
 cask "steamcmd"
