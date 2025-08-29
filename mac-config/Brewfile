@@ -136,7 +136,6 @@ brew "ripgrep"
 brew "rizin"
 brew "rga"
 brew "ruby-build"
-#brew "rust" # Install with rustup instead.
 brew "rustup-init"
 brew "saml2aws"
 brew "scc"

@@ -4,6 +4,8 @@
 
 ## Brew Formula
 
+brew "rust" # Install with rustup instead.
+
 ## Casks
 
 cask "alacritty"
