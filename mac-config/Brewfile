@@ -198,7 +198,6 @@ cask "shortcat"
 cask "trex"
 
 ## Markdown, Notes & PKM
-cask "joplin"
 cask "macdown"
 cask "mark-text"
 cask "marked"

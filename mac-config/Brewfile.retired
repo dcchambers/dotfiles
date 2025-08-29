@@ -14,6 +14,7 @@ cask "flameshot"
 cask "google-chrome-canary"
 cask "google-cloud-sdk"
 cask "insomnia"
+cask "joplin"
 cask "keybase"
 cask "nova"
 cask "numi" # Installed via Setapp
