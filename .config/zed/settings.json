@@ -14,7 +14,7 @@
   "buffer_font_size": 16,
   "tab_size": 2,
   "project_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "theme": "Rosé Pine Dawn",
     "format_on_save": "off",
