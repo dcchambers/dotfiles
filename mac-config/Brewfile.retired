@@ -6,6 +6,7 @@
 
 ## Casks
 
+cask "alacritty"
 cask "background-music"
 cask "chefdk"
 cask "dash" # Installed via Setapp

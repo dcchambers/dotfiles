@@ -257,7 +257,6 @@ cask "kap"
 cask "obs"
 
 ## Terminal
-cask "alacritty"
 cask "ghostty"
 
 ## Web
