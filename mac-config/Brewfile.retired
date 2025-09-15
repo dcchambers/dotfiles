@@ -4,6 +4,8 @@
 
 ## Brew Formula
 
+brew "rbenv" # Switched to mise
+brew "rbenv-vars"
 brew "rust" # Install with rustup instead.
 
 ## Casks
