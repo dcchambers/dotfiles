@@ -47,7 +47,7 @@ export HISTSIZE=2000
 #export PATH=$PATH:$(go env GOPATH)/bin
 
 # RUBY
-eval "$(rbenv init -)"
+# Using mise
 
 # RUST
 #source $HOME/.cargo/env
