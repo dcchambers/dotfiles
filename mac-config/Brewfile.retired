@@ -20,6 +20,7 @@ brew "hashicorp/tap/waypoint"
 brew "openjdk"
 brew "rbenv" # Switched to mise
 brew "rbenv-vars"
+brew "redo"
 brew "rust" # Install with rustup instead.
 brew "saml2aws"
 
@@ -38,12 +39,14 @@ cask "google-cloud-sdk"
 cask "insomnia"
 cask "joplin"
 cask "keybase"
+cask "lm-studio"
 cask "lunar"
 cask "macdown"
 cask "marked" # Available in Setapp
 cask "notable"
 cask "nova"
 cask "numi" # Installed via Setapp
+cask "only-switch"
 cask "parsify"
 cask "postman"
 cask "private-internet-access"

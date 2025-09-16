@@ -115,7 +115,6 @@ brew "podman"
 brew "prettyping"
 brew "python"
 brew "ranger"
-brew "redo"
 brew "ripgrep"
 brew "rizin"
 brew "rga"
@@ -169,14 +168,14 @@ cask "itsycal"
 cask "1password"
 cask "1password-cli"
 cask "command-x"
-cask "only-switch"
 cask "raycast"
 cask "rectangle"
-cask "silicon"
+cask "silicon-app"
 cask "shortcat"
 cask "trex"
 
 ## Markdown, Notes & PKM
+cask "heynote"
 cask "mark-text"
 cask "notion"
 cask "obsidian"
@@ -214,25 +213,26 @@ cask "visual-studio-code"
 cask "zed"
 cask "zed@preview"
 
-### Messaging
+### Terminal
+cask "ghostty"
+
+##  Messaging
 cask "discord"
-cask "hey"
+cask "hey-desktop"
 cask "whatsapp"
 
-### Misc
+##  Misc
 cask "gitify"
 cask "jordanbaird-ice"
 
-### Productivity
+## Productivity
 cask "ticktick"
 
 ## Screen Recording
-cask "cap"
-cask "kap"
-cask "obs"
-
-## Terminal
-cask "ghostty"
+cask "cap"           # https://cap.so/
+cask "kap"           # https://getkap.co/
+cask "obs"           # https://obsproject.com/
+cask "screen-studio" # https://screen.studio/ - Requires license.
 
 ## Web
 cask "firefox"
@@ -242,13 +242,10 @@ cask "orion"
 ## To-be categorized
 cask "anki"
 cask "basictex"
-cask "heynotes"
 cask "inkscape"
 cask "ollama" # Provides a GUI app to install/manage the ollama cli
 cask "krita"
-cask "lm-studio"
 cask "maestral" # dropbox client
-cask "postgres-unofficial"
 cask "setapp" # See setapp.txt
 cask "steam"
 cask "steamcmd"
