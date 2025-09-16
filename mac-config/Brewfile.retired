@@ -2,25 +2,46 @@
 
 ## Taps
 
+tap "ankitpokhrel/jira-cli"
+tap "chef/chef"
+tap "fermyon/tap"
+tap "hashicorp/tap"
+
 ## Brew Formula
 
+brew "ankitpokhrel/jira-cli/jira-cli"
+brew "fermyon/tap/spin"
+brew "hashicorp/tap/consul"
+brew "hashicorp/tap/nomad"
+brew "hashicorp/tap/packer"
+brew "hashicorp/tap/terraform"
+brew "hashicorp/tap/vault"
+brew "hashicorp/tap/waypoint"
+brew "openjdk"
 brew "rbenv" # Switched to mise
 brew "rbenv-vars"
 brew "rust" # Install with rustup instead.
+brew "saml2aws"
 
 ## Casks
 
 cask "alacritty"
+cask "alt-tab"
 cask "background-music"
 cask "chefdk"
 cask "dash" # Installed via Setapp
 cask "fastmarks"
 cask "flameshot"
+cask "flux" # Using MacOS Night Shift instead
 cask "google-chrome-canary"
 cask "google-cloud-sdk"
 cask "insomnia"
 cask "joplin"
 cask "keybase"
+cask "lunar"
+cask "macdown"
+cask "marked" # Available in Setapp
+cask "notable"
 cask "nova"
 cask "numi" # Installed via Setapp
 cask "parsify"
