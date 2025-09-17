@@ -10,7 +10,13 @@ tap "hashicorp/tap"
 ## Brew Formula
 
 brew "ankitpokhrel/jira-cli/jira-cli"
+brew "darksky-weather"
+brew "dcchambers/tap/cbonsai"
+brew "dcchambers/tap/kubeval"
+brew "dcchambers/tap/writeas-cli"
+brew "dhall-json"
 brew "fermyon/tap/spin"
+brew "ffsend"
 brew "hashicorp/tap/consul"
 brew "hashicorp/tap/nomad"
 brew "hashicorp/tap/packer"
@@ -18,39 +24,52 @@ brew "hashicorp/tap/terraform"
 brew "hashicorp/tap/vault"
 brew "hashicorp/tap/waypoint"
 brew "openjdk"
+brew "ranger"
 brew "rbenv" # Switched to mise
 brew "rbenv-vars"
 brew "redo"
 brew "rust" # Install with rustup instead.
 brew "saml2aws"
+brew "tmux"
+brew "timewarrior"
+brew "transmission-cli"
 
 ## Casks
 
 cask "alacritty"
 cask "alt-tab"
-cask "background-music"
+cask "background-music"        # https://github.com/kyleneideck/BackgroundMusic
+cask "calibre"                 # https://calibre-ebook.com/
+cask "cap"                     # https://cap.so/
 cask "chefdk"
-cask "dash" # Installed via Setapp
+cask "dash"                    # https://kapeli.com/dash - Installed via Setapp
+cask "eqmac"
 cask "fastmarks"
 cask "flameshot"
-cask "flux" # Using MacOS Night Shift instead
-cask "google-chrome-canary"
+cask "flux"                    # https://justgetflux.com/ - Using MacOS Night Shift instead
+cask "google-chrome-canary"    # https://www.google.com/chrome/canary/
 cask "google-cloud-sdk"
 cask "insomnia"
 cask "joplin"
+cask "kap"                     # https://getkap.co/
 cask "keybase"
 cask "lm-studio"
 cask "lunar"
 cask "macdown"
-cask "marked" # Available in Setapp
+cask "marked"                  # https://marked2app.com/ - Available in Setapp
 cask "notable"
 cask "nova"
-cask "numi" # Installed via Setapp
+cask "numi"                    # https://numi.app/ - Installed via Setapp
+cask "obs"                     # https://obsproject.com/
 cask "only-switch"
 cask "parsify"
 cask "postman"
-cask "private-internet-access"
+cask "private-internet-access" # https://www.privateinternetaccess.com/
+cask "screen-studio"           # https://screen.studio/ - Requires license.
+cask "soundsource"
 cask "soulver"
 cask "textbuddy"
+cask "transmission"            # https://transmissionbt.com/
+cask "typora"                  # https://typora.io/
 cask "vagrant"
 cask "wezterm"

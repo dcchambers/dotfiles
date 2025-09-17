@@ -36,17 +36,12 @@ brew "crane" # https://github.com/google/go-containerregistry/blob/main/cmd/cran
 brew "crystal"
 brew "cue-lang/tap/cue"
 brew "dark-mode"
-brew "darksky-weather"
-brew "dcchambers/tap/cbonsai"
-brew "dcchambers/tap/kubeval"
-brew "dcchambers/tap/writeas-cli"
-brew "dhall-json"
+brew "dcchambers/tap/notekeeper"
 brew "dog"
 brew "duf"
 brew "eth-p/software/bat-extras"
 brew "eza"
 brew "ffmpeg"
-brew "ffsend"
 brew "fish"
 brew "fzf"
 brew "fx"
@@ -54,7 +49,7 @@ brew "gifski"
 brew "gist"
 brew "git"
 brew "git-delta"
-brew "gh"
+brew "gh"                         # https://cli.github.com/
 brew "glow"
 brew "gnu-sed"
 brew "go"
@@ -104,7 +99,6 @@ brew "nmap"
 brew "nnn"
 brew "noahgorstein/tap/jqp"
 brew "node"
-brew "notekeeper"
 brew "numbat"
 brew "nushell"
 brew "onefetch"
@@ -114,7 +108,6 @@ brew "plantuml"
 brew "podman"
 brew "prettyping"
 brew "python"
-brew "ranger"
 brew "ripgrep"
 brew "rizin"
 brew "rga"
@@ -134,9 +127,6 @@ brew "task"
 brew "tealdeer" # tldr.sh rust implementation
 brew "terminal-notifier"
 brew "tinygo-org/tools/tinygo"
-brew "tmux"
-brew "timewarrior"
-brew "transmission-cli"
 brew "tree"
 brew "tty-clock"
 brew "vim"
@@ -153,12 +143,7 @@ brew "zoxide" # See also: https://github.com/rupa/z
 
 # Casks (Graphical .app programs)
 
-## Audio
-cask "eqmac"
-cask "soundsource"
-
 ## Books/E-Readers
-cask "calibre"
 cask "remarkable"
 
 ## Calendar
@@ -168,6 +153,7 @@ cask "itsycal"
 cask "1password"
 cask "1password-cli"
 cask "command-x"
+cask "jordanbaird-ice"
 cask "raycast"
 cask "rectangle"
 cask "silicon-app"
@@ -179,12 +165,10 @@ cask "heynote"
 cask "mark-text"
 cask "notion"
 cask "obsidian"
-cask "typora"
 
 ## Media
 cask "iina"
 cask "netnewswire"
-cask "transmission"
 cask "vlc"
 
 ## Programming
@@ -197,7 +181,7 @@ cask "docker"
 
 ### Database
 cask "db-browser-for-sqlite"
-cask "postgres-unofficial" # https://postgresapp.com/
+cask "postgres-unofficial"           # https://postgresapp.com/
 
 ### Fonts
 cask "font-jetbrains-mono-nerd-font"
@@ -221,18 +205,9 @@ cask "discord"
 cask "hey-desktop"
 cask "whatsapp"
 
-##  Misc
-cask "gitify"
-cask "jordanbaird-ice"
-
 ## Productivity
 cask "ticktick"
-
-## Screen Recording
-cask "cap"           # https://cap.so/
-cask "kap"           # https://getkap.co/
-cask "obs"           # https://obsproject.com/
-cask "screen-studio" # https://screen.studio/ - Requires license.
+cask "tomatobar"
 
 ## Web
 cask "firefox"
@@ -242,12 +217,13 @@ cask "orion"
 ## To-be categorized
 cask "anki"
 cask "basictex"
+cask "espanso"       # https://espanso.org/
+cask "gitify"
 cask "inkscape"
-cask "ollama" # Provides a GUI app to install/manage the ollama cli
+cask "ollama"        # Provides a GUI app to install/manage the ollama cli
 cask "krita"
-cask "maestral" # dropbox client
-cask "setapp" # See setapp.txt
+cask "maestral"      # dropbox client
+cask "setapp"        # See setapp.txt
 cask "steam"
 cask "steamcmd"
-cask "tailscale"
-cask "tomatobar"
+cask "tailscale-app"
