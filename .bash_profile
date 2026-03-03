@@ -75,8 +75,13 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # Brew installs some stuff to /usr/local/sbin. Add to path.
 export PATH="/usr/local/sbin:$PATH"
 
-# Other common bin install locatio
+# Other common bin install location
 export PATH="~/.local/bin:$PATH"
+###########################
+
+###########################
+# Obsidian
+export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
 ###########################
 
 ###########################
