@@ -7,43 +7,28 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-
   // Zed UI/UX & General Config
 
+  "edit_predictions": {
+    "mode": "subtle",
+  },
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "tab_size": 2,
   "project_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "theme": "One Light",
-    "format_on_save": "off",
+  "format_on_save": "off",
   "telemetry": {
-    "metrics": false
+    "metrics": false,
   },
 
   // Language-specific config
 
   "languages": {
     "Ruby": {
-      "language_servers": ["ruby-lsp", "..."]
-    }
-  },
-
-  //AI stuff
-
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
-  "inline_completions": {
-    "disabled_globs": [".env", "_pages/now.md"]
-  },
-  "assistant": {
-    "default_model": {
-      "provider": "google",
-      "model": "gemini-2.5-pro-exp-03-25"
+      "language_servers": ["ruby-lsp", "..."],
     },
-    "version": "2"
-  }
-
+  },
 }
