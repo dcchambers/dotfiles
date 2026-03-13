@@ -23,7 +23,6 @@ ln -sv $DOTFILE_DIR/.bash_aliases                                 ~/.bash_aliase
 ln -sv $DOTFILE_DIR/.bash_profile                                 ~/.bash_profile
 ln -sv $DOTFILE_DIR/.bashrc                                       ~/.bashrc
 ln -sv $DOTFILE_DIR/.blerc                                        ~/.blerc
-ln -sv $DOTFILE_DIR/.cobra.yaml                                   ~/.cobra.yaml
 ln -sv $DOTFILE_DIR/.config/alacritty/alacritty.toml              ~/.config/alacritty/alacritty.toml
 ln -sv $DOTFILE_DIR/.config/alacritty/themes/monokai_pro.toml     ~/.config/alacritty/themes/monokai_pro.toml
 ln -sv $DOTFILE_DIR/.config/alacritty/themes/solarized_light.toml ~/.config/alacritty/themes/solarized_light.toml
