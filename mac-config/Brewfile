@@ -229,3 +229,8 @@ cask "setapp"        # See setapp.txt
 cask "steam"
 cask "steamcmd"
 cask "tailscale-app"
+
+# Cargo Crates (Rust package manager)
+
+cargo htmlq
+cargo difftastic
