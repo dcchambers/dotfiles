@@ -23,6 +23,7 @@ brew "hashicorp/tap/packer"
 brew "hashicorp/tap/terraform"
 brew "hashicorp/tap/vault"
 brew "hashicorp/tap/waypoint"
+brew "newsboat"
 brew "openjdk"
 brew "ranger"
 brew "rbenv" # Switched to mise
