@@ -53,6 +53,7 @@ cask "insomnia"
 cask "joplin"
 cask "kap"                     # https://getkap.co/
 cask "keybase"
+cask "krita"
 cask "lm-studio"
 cask "lunar"
 cask "macdown"

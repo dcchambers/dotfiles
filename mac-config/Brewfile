@@ -224,7 +224,6 @@ cask "espanso"       # https://espanso.org/
 cask "gitify"
 cask "inkscape"
 cask "ollama"        # Provides a GUI app to install/manage the ollama cli
-cask "krita"
 cask "maestral"      # dropbox client
 cask "setapp"        # See setapp.txt
 cask "steam"
