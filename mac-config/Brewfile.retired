@@ -1,4 +1,4 @@
-# Things I don't use any more (but maybe will again)
+# Things I had installed at one point but I don't use currently on my personal mac.
 
 ## Taps
 
@@ -6,34 +6,93 @@ tap "ankitpokhrel/jira-cli"
 tap "chef/chef"
 tap "fermyon/tap"
 tap "hashicorp/tap"
+tap "heroku/brew"
+tap "vmware-tanzu/carvel"
 
 ## Brew Formula
 
+brew "act"
 brew "ankitpokhrel/jira-cli/jira-cli"
+brew "borgbackup"
+brew "borgmatic"s
+brew "charmbracelet/tap/skate"
+brew "cookcli"
+brew "crane" # https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md
+brew "cue"
+brew "dark-mode"
 brew "darksky-weather"
 brew "dcchambers/tap/cbonsai"
 brew "dcchambers/tap/kubeval"
 brew "dcchambers/tap/writeas-cli"
 brew "dhall-json"
+brew "duf"
+brew "dyff"
 brew "fermyon/tap/spin"
 brew "ffsend"
+brew "glow"
+brew "go-jsonnet"
+brew "golangci-lint"
+brew "googler"
+brew "gron"                      # json tool
 brew "hashicorp/tap/consul"
 brew "hashicorp/tap/nomad"
 brew "hashicorp/tap/packer"
 brew "hashicorp/tap/terraform"
 brew "hashicorp/tap/vault"
 brew "hashicorp/tap/waypoint"
-brew "newsboat"
+brew "helix"
+brew "helm"
+brew "heroku/brew/heroku"
+brew "hexyl"
+brew "jless"                     # json tool
+brew "joplin-cli"
+brew "jq"                        # Now pre-installed in MacOS (Sequoia+)
+brew "jql"                       # json query language
+brew "k9s"
+brew "kpt"                       # googlecontainertools/kpt/kpta
+brew "kubectx"
+brew "kubernetes-cli"            # Minikube dependency
+brew "kubie"
+brew "kustomize"
+brew "krew"
+brew "lynx"
+brew "micro"                     # Text editor
+brew "minikube"
+brew "mkcert"
+brew "most"
+brew "neofetch"                  # Deprecated
+brew "newsboat"                  # Terminal-based RSS reader
+brew "nmap"
+brew "nnn"
+brew "node"                      # Use mise or nvm
+brew "plantuml"
+brew "podman"
+brew "prettyping"
 brew "openjdk"
 brew "ranger"
-brew "rbenv" # Switched to mise
+brew "rbenv"                     # Switched to mise
 brew "rbenv-vars"
 brew "redo"
-brew "rust" # Install with rustup instead.
+brew "rizin"                     # Reverse engineering tool
+brew "rust"                      # Switched to rustup.
 brew "saml2aws"
+brew "speedtest-cli"             # Deprecated
+brew "sshuttle"
+brew "task"
+brew "tealdeer" # tldr.sh rust implementation
+brew "terminal-notifier"
 brew "tmux"
 brew "timewarrior"
 brew "transmission-cli"
+brew "vendir"
+brew "vim"                       # Switched to neovim
+brew "vmware-tanzu/carvel/kapp"
+brew "watson"                    # CLI for Time Tracking
+brew "wget"
+brew "yarn"
+brew "youtube-dl"                # Deprecated - switched to yt-dlp
+brew "zellij"
+
 
 ## Casks
 
@@ -44,6 +103,7 @@ cask "calibre"                 # https://calibre-ebook.com/
 cask "cap"                     # https://cap.so/
 cask "chefdk"
 cask "dash"                    # https://kapeli.com/dash - Installed via Setapp
+cask "docker"                  # https://docker.com - Deprecated - replaced with docker-desktop. Using orbstack.
 cask "eqmac"
 cask "fastmarks"
 cask "flameshot"
