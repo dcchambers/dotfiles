@@ -1,6 +1,5 @@
 # Taps
 
-tap "abhimanyu003/sttr"
 tap "anomalyco/tap"
 tap "charmbracelet/tap"
 tap "dcchambers/tap"
