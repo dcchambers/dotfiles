@@ -148,14 +148,6 @@ cask "orion"
 cask "steam"
 cask "steamcmd"
 
-## To-be categorized
-
-
-
-        # Provides a GUI app to install/manage the ollama cli
-
-
-
 # Cargo Crates (Rust package manager)
 
 cargo "htmlq"
