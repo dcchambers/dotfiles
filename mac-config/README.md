@@ -3,8 +3,6 @@
 Apps, tools, libraries, fonts and more that I use on my macs.
 
 - [Homebrew](Brewfile)
-- [Cargo](cargo-crates)
-- [Pypi](pip3-packages.txt)
+  - Manage Homebrew formula (CLI tools), casks (Apps), Rust packages (Cargo), Python packages (uv), and Mac App store apps (via mas)
 - [Setapp](setapp.txt)
-- [Other Apps](other-apps.txt)
 - [Icons](icons)

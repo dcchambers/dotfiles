@@ -27,7 +27,7 @@ brew "bat"
 brew "bat-extras"
 brew "chrome-cli"
 brew "crystal"
-brew "dcchambers/tap/notekeeper" #
+brew "dcchambers/tap/notekeeper"
 brew "eza"
 brew "fastfetch"
 brew "ffmpeg"
@@ -38,6 +38,7 @@ brew "gifski"                    # Gif encoder
 brew "gist"
 brew "git"
 brew "git-delta"                 # Better git diff output
+brew "git-who"
 brew "gh"                        # https://cli.github.com/
 brew "gnu-sed"
 brew "go"
@@ -49,7 +50,7 @@ brew "jaq"                       # jq with extra features
 brew "jqp"
 brew "lazydocker"
 brew "lazygit"
-brew "libyaml          "         # ruby-build dependency
+brew "libyaml"                   # ruby-build dependency
 brew "lnav"                      # log viewing tool - https://lnav.org/
 brew "m-cli"
 brew "mas"
@@ -82,94 +83,84 @@ brew "yt-dlp"
 brew "yq"
 brew "zoxide"                    # See also: https://github.com/rupa/z
 
-# Casks (Graphical .app programs)
-
-## Books/E-Readers
-cask "remarkable"
+# Casks (Graphical Apps)
 
 ## Calendar
 cask "itsycal"
 
-## MacOS Productivity
+## Utilities & Productivity
 cask "1password"
 cask "1password-cli"
-cask "command-x"
-cask "jordanbaird-ice"
+cask "anki"                          # https://apps.ankiweb.net/
+cask "basictex"
+cask "espanso"                       # https://espanso.org/
+cask "jordanbaird-ice"               # https://icemenubar.app/
+cask "maestral"                      # https://maestral.app/ - Dropbox Client
+cask "ollama"                        # https://ollama.com/
 cask "raycast"
 cask "rectangle"
+cask "setapp"                        # See setapp.txt
 cask "silicon-app"
 cask "shortcat"
+cask "tailscale-app"
+cask "ticktick"                      # https://ticktick.com/
+cask "tomatobar"
 cask "trex"
 
-## Markdown, Notes & PKM
-cask "heynote"
+## Markdown, Notes, & PKM
 cask "mark-text"
 cask "notion"
 cask "obsidian"
 
-## Media
-cask "iina"
+## Media & News
+cask "iina"                          # https://iina.io/
 cask "netnewswire"
-cask "vlc"
+cask "vlc"                           # https://www.videolan.org/vlc/
 
-## Programming
-### APIs
-cask "httpie"
-cask "rapidapi"
-
-### Containers/Kubernetes
-cask "orbstack"                      # https://orbstack.dev/
-
-### Database
+## Software Engineering
 cask "db-browser-for-sqlite"
+cask "ghostty"
+cask "gitify"                        # https://gitify.io/
+cask "httpie"
+cask "manaflow-ai/cmux/cmux"
+cask "orbstack"                      # https://orbstack.dev/
 cask "postgres-unofficial"           # https://postgresapp.com/
-
-### Fonts
-cask "font-jetbrains-mono-nerd-font"
-cask "font-monaspace-nerd-font"
-
-### Hex Editors/Reverse Engineering
-cask "cutter"
-cask "imhex"
-# See also: rizin, hexyl
-
-### IDEs/Text Editors
+cask "rapidapi"
 cask "visual-studio-code"
 cask "zed"
 cask "zed@preview"
 
-### Terminal
-cask "ghostty"
+## Fonts
+cask "font-jetbrains-mono-nerd-font"
+cask "font-monaspace-nerd-font"
 
 ##  Messaging
 cask "discord"
 cask "hey-desktop"
 cask "whatsapp"
 
-## Productivity
-cask "ticktick"
-cask "tomatobar"
-
 ## Web
 cask "firefox"
 cask "google-chrome"
 cask "orion"
 
-## To-be categorized
-cask "anki"
-cask "basictex"
-cask "espanso"       # https://espanso.org/
-cask "gitify"
-cask "inkscape"
-cask "ollama"        # Provides a GUI app to install/manage the ollama cli
-cask "manaflow-ai/cmux/cmux"
-cask "maestral"      # dropbox client
-cask "setapp"        # See setapp.txt
+## Gaming
 cask "steam"
 cask "steamcmd"
-cask "tailscale-app"
+
+## To-be categorized
+
+
+
+        # Provides a GUI app to install/manage the ollama cli
+
+
 
 # Cargo Crates (Rust package manager)
 
 cargo "htmlq"
 cargo "difftastic"
+
+## Python Packages
+
+uv "json-schema-for-humans"

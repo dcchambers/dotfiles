@@ -43,7 +43,7 @@ brew "hashicorp/tap/waypoint"
 brew "helix"
 brew "helm"
 brew "heroku/brew/heroku"
-brew "hexyl"
+brew "hexyl"                     # CLI Hex Viewer
 brew "jless"                     # json tool
 brew "joplin-cli"
 brew "jq"                        # Now pre-installed in MacOS (Sequoia+)
@@ -86,6 +86,7 @@ brew "timewarrior"
 brew "transmission-cli"
 brew "vendir"
 brew "vim"                       # Switched to neovim
+brew "visidata"
 brew "vmware-tanzu/carvel/kapp"
 brew "watson"                    # CLI for Time Tracking
 brew "wget"
@@ -102,6 +103,8 @@ cask "background-music"        # https://github.com/kyleneideck/BackgroundMusic
 cask "calibre"                 # https://calibre-ebook.com/
 cask "cap"                     # https://cap.so/
 cask "chefdk"
+cask "cutter"                  # https://github.com/rizinorg/cutter
+cask "command-x"
 cask "dash"                    # https://kapeli.com/dash - Installed via Setapp
 cask "docker"                  # https://docker.com - Deprecated - replaced with docker-desktop. Using orbstack.
 cask "eqmac"
@@ -110,6 +113,9 @@ cask "flameshot"
 cask "flux"                    # https://justgetflux.com/ - Using MacOS Night Shift instead
 cask "google-chrome-canary"    # https://www.google.com/chrome/canary/
 cask "google-cloud-sdk"
+cask "heynote"                 # https://heynote.com/
+cask "imhex"                   # https://imhex.werwolv.net/
+cask "inkscape"
 cask "insomnia"
 cask "joplin"
 cask "kap"                     # https://getkap.co/
@@ -127,7 +133,8 @@ cask "only-switch"
 cask "parsify"
 cask "postman"
 cask "private-internet-access" # https://www.privateinternetaccess.com/
-cask "screen-studio"           # https://screen.studio/ - Requires license.
+cask "remarkable"              # https://remarkable.com/ - Removed from Homebrew
+cask "screen-studio"           # https://screen.studio/ - Requires license
 cask "soundsource"
 cask "soulver"
 cask "textbuddy"
