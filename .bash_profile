@@ -88,11 +88,6 @@ export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
 ###########################
 
 ###########################
-# Postgres
-export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
-###########################
-
-###########################
 # Aliases
 source ~/.bash_aliases
 ###########################
