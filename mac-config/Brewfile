@@ -94,6 +94,7 @@ cask "1password-cli"
 cask "anki"                          # https://apps.ankiweb.net/
 cask "basictex"
 cask "espanso"                       # https://espanso.org/
+cask "handy"                         # https://handy.computer/
 cask "jordanbaird-ice"               # https://icemenubar.app/
 cask "maestral"                      # https://maestral.app/ - Dropbox Client
 cask "ollama"                        # https://ollama.com/
