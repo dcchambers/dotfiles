@@ -53,7 +53,7 @@ brew "lazygit"
 brew "libyaml"                   # ruby-build dependency
 brew "lnav"                      # log viewing tool - https://lnav.org/
 brew "m-cli"
-brew "mas"
+brew "mas"                       # CLI For the Mac App Store (compatible with Brew Bundle!)
 brew "mise"
 brew "neovim"
 brew "numbat"
@@ -125,7 +125,6 @@ cask "gitify"                        # https://gitify.io/
 cask "httpie"
 cask "manaflow-ai/cmux/cmux"
 cask "orbstack"                      # https://orbstack.dev/
-cask "postgres-unofficial"           # https://postgresapp.com/
 cask "rapidapi"
 cask "visual-studio-code"
 cask "zed"
@@ -154,6 +153,19 @@ cask "steamcmd"
 cargo "htmlq"
 cargo "difftastic"
 
-## Python Packages
+# Python Packages
 
 uv "json-schema-for-humans"
+
+# Setapp (maybe some day Brew can install these...)
+
+# BoltAI
+# CleanShot X
+# Craft
+# Dash
+# Dato
+# DevUtils
+# PopClip
+# Supercharge
+# TablePlus
+# Xnapper

@@ -67,6 +67,7 @@ brew "nnn"
 brew "node"                      # Use mise or nvm
 brew "plantuml"
 brew "podman"
+cask "postgres-unofficial"           # https://postgresapp.com/
 brew "prettyping"
 brew "openjdk"
 brew "ranger"
