@@ -1,6 +1,7 @@
 # Taps
 
 tap "anomalyco/tap"
+tap "basecamp/tap"
 tap "charmbracelet/tap"
 tap "dcchambers/tap"
 tap "googlecontainertools/kpt"
@@ -92,6 +93,7 @@ cask "itsycal"
 cask "1password"
 cask "1password-cli"
 cask "anki"                          # https://apps.ankiweb.net/
+cask "basecamp-cli"                  # https://github.com/basecamp/basecamp-cli
 cask "basictex"
 cask "espanso"                       # https://espanso.org/
 cask "handy"                         # https://handy.computer/
