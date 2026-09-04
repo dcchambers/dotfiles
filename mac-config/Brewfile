@@ -46,7 +46,9 @@ brew "go"
 brew "gojq"
 brew "goto"
 brew "gpg"
+brew "herdr"                     # https://herdr.dev/
 brew "httpie"
+brew "hunk"                      # https://www.hunk.dev/
 brew "jaq"                       # jq with extra features
 brew "jqp"
 brew "lazydocker"
