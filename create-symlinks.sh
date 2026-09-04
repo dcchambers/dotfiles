@@ -7,6 +7,7 @@ DOTFILE_DIR=$HOME/Code/dotfiles
 mkdir -p ~/.config
 mkdir -p ~/.config/gh
 mkdir -p ~/.config/ghostty
+mkdir -p ~/.config/herdr
 mkdir -p ~/.config/notekeeper
 mkdir -p ~/.config/nvim
 mkdir -p ~/.config/nvim/lua
@@ -22,6 +23,7 @@ ln -sv $DOTFILE_DIR/.bashrc                                       ~/.bashrc
 ln -sv $DOTFILE_DIR/.blerc                                        ~/.blerc
 ln -sv $DOTFILE_DIR/.config/gh/config.yml                         ~/.config/gh/config.yml
 ln -sv $DOTFILE_DIR/.config/ghostty/config                        ~/.config/ghostty/config
+ln -sv $DOTFILE_DIR/.config/herdr/config.toml                     ~/.config/herdr/config.toml
 ln -sv $DOTFILE_DIR/.config/lazyvim/init.lua                      ~/.config/nvim/init.lua
 ln -sv $DOTFILE_DIR/.config/lazyvim/lua/config/autocmds.lua       ~/.config/nvim/lua/config/autocmds.lua
 ln -sv $DOTFILE_DIR/.config/lazyvim/lua/config/keymaps.lua        ~/.config/nvim/lua/config/keymaps.lua
