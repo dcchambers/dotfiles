@@ -65,13 +65,15 @@ brew "newsboat"                  # Terminal-based RSS reader
 brew "nmap"
 brew "nnn"
 brew "node"                      # Use mise or nvm
+brew "pass"                      # https://www.passwordstore.org/
 brew "plantuml"
 brew "podman"
-cask "postgres-unofficial"           # https://postgresapp.com/
+cask "postgres-unofficial"       # https://postgresapp.com/
 brew "prettyping"
+brew "python"                    # Use mise instead
 brew "openjdk"
 brew "ranger"
-brew "rbenv"                     # Switched to mise
+brew "rbenv"                     # Use mise instead
 brew "rbenv-vars"
 brew "redo"
 brew "rizin"                     # Reverse engineering tool
@@ -125,6 +127,7 @@ cask "krita"
 cask "lm-studio"
 cask "lunar"
 cask "macdown"
+cask "manaflow-ai/cmux/cmux"   # https://cmux.com/
 cask "marked"                  # https://marked2app.com/ - Available in Setapp
 cask "notable"
 cask "nova"

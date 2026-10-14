@@ -44,7 +44,7 @@ brew "gh"                        # https://cli.github.com/
 brew "gnu-sed"
 brew "go"
 brew "gojq"
-brew "goto"
+brew "goto"                      # https://github.com/iridakos/goto
 brew "gpg"
 brew "herdr"                     # https://herdr.dev/
 brew "httpie"
@@ -63,8 +63,6 @@ brew "numbat"
 brew "nushell"
 brew "onefetch"
 brew "pandoc"
-brew "pass"                      # https://www.passwordstore.org/
-brew "python"                    # TODO - Use mise instead to manage python install
 brew "ripgrep"
 brew "rga"                       # https://github.com/phiresky/ripgrep-all
 brew "ruby-build"
@@ -81,7 +79,9 @@ brew "tinygo-org/tools/tinygo"
 brew "tlrc"                      # tldr in Rust
 brew "tree"
 brew "tty-clock"
+brew "usage"                     # https://usage.jdx.dev/
 brew "watchman"
+brew "worktrunk"
 brew "yt-dlp"
 brew "yq"
 brew "zoxide"                    # See also: https://github.com/rupa/z
@@ -124,10 +124,9 @@ cask "vlc"                           # https://www.videolan.org/vlc/
 
 ## Software Engineering
 cask "db-browser-for-sqlite"
-cask "ghostty"
+cask "ghostty@tip"                   # https://ghostty.org/
 cask "gitify"                        # https://gitify.io/
 cask "httpie"
-cask "manaflow-ai/cmux/cmux"
 cask "orbstack"                      # https://orbstack.dev/
 cask "rapidapi"
 cask "visual-studio-code"
