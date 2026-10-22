@@ -8,12 +8,21 @@ alias gd='git diff --color=always' #color=always preserves colors when piping to
 alias gds='git diff --staged --color=always | less -R'
 alias gcd='git commit -m $(date +%Y-%m-%d)'
 alias gcl='git config --list'
+alias gcod='git-checkout-default'
 alias gcm='git commit -m'
+alias gpo-'git push origin'
+alias h='herdr'
 alias la='ls -al'
 alias ll='ls -l'
 alias n='nvim'
 alias o='opencode'
 alias ocp='opencode --prompt'
+alias ocr='opencode run'
 alias r='rake'
 alias rt='rake --tasks'
 alias v='nvim'
+
+git-checkout-default(){
+    branch=$(git remote show origin | awk '/HEAD branch/ {print $NF}')
+    git checkout "$branch" && git pull
+}
