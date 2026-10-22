@@ -1,5 +1,6 @@
 alias be='bundle exec'
 alias c='clear'
+alias caf='caffeinate'
 alias cim='vim' # I typo this a lot...
 alias exa="exa --icons" #Always show icons when using the exa command
 alias g='git'
