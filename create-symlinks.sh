@@ -22,6 +22,7 @@ ln -sv $DOTFILE_DIR/.bash_aliases                                 ~/.bash_aliase
 ln -sv $DOTFILE_DIR/.bash_profile                                 ~/.bash_profile
 ln -sv $DOTFILE_DIR/.bashrc                                       ~/.bashrc
 ln -sv $DOTFILE_DIR/.blerc                                        ~/.blerc
+ln -sv $DOTFILE_DIR/.config/goto                                  ~/.config/goto
 ln -sv $DOTFILE_DIR/.config/gh/config.yml                         ~/.config/gh/config.yml
 ln -sv $DOTFILE_DIR/.config/ghostty/config                        ~/.config/ghostty/config
 ln -sv $DOTFILE_DIR/.config/herdr/config.toml                     ~/.config/herdr/config.toml

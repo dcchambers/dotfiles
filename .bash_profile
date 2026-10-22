@@ -23,6 +23,10 @@ fi
 # Must have bash-completion@2 (since bash >v4.0) installed via Homebrew
 source ${BREW_PREFIX}/etc/bash_completion.d/git-completion.bash
 
+# goto (Homebrew) ships no binary -- it's a shell function + completions in
+# etc/bash_completion.d. Not auto-sourced for the same reason as git above.
+[[ -r "${BREW_PREFIX}/etc/bash_completion.d/goto.sh" ]] && source "${BREW_PREFIX}/etc/bash_completion.d/goto.sh"
+
 # END Bash Autocompletion
 ###########################
 
