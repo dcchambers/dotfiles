@@ -9,14 +9,12 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "manaflow-ai/cmux"
 tap "tarkah/tickrs"
 tap "teamookla/speedtest"
 tap "tinygo-org/tools"
 
 # Brew Formula
 
-brew "age"
 brew "achannarasappa/tap/ticker"
 brew "anomalyco/tap/opencode"
 brew "asciinema"
@@ -26,8 +24,6 @@ brew "bash"
 brew "bash-completion@2"
 brew "bat"
 brew "bat-extras"
-brew "chrome-cli"
-brew "crystal"
 brew "dcchambers/tap/notekeeper"
 brew "eza"
 brew "fastfetch"
@@ -42,7 +38,7 @@ brew "git-delta"                 # Better git diff output
 brew "git-who"
 brew "gh"                        # https://cli.github.com/
 brew "gnu-sed"
-brew "go"
+brew "go"                        # TODO - Move to mise.
 brew "gojq"
 brew "goto"                      # https://github.com/iridakos/goto
 brew "gpg"                       # https://gnupg.org/
@@ -55,18 +51,14 @@ brew "lazydocker"
 brew "lazygit"
 brew "libyaml"                   # ruby-build dependency
 brew "lnav"                      # log viewing tool - https://lnav.org/
-brew "m-cli"
 brew "mas"                       # CLI For the Mac App Store (compatible with Brew Bundle!)
 brew "mise"
 brew "neovim"
-brew "numbat"
 brew "nushell"
 brew "onefetch"
 brew "pandoc"
 brew "ripgrep"
 brew "rga"                       # https://github.com/phiresky/ripgrep-all
-brew "ruby-build"
-brew "rustup-init"
 brew "scc"                       # like cloc
 brew "shellcheck"
 brew "silicon"

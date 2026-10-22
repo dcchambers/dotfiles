@@ -7,17 +7,21 @@ tap "chef/chef"
 tap "fermyon/tap"
 tap "hashicorp/tap"
 tap "heroku/brew"
+tap "manaflow-ai/cmux"
 tap "vmware-tanzu/carvel"
 
 ## Brew Formula
 
 brew "act"
+brew "age"
 brew "ankitpokhrel/jira-cli/jira-cli"
 brew "borgbackup"
 brew "borgmatic"s
 brew "charmbracelet/tap/skate"
+brew "chrome-cli"
 brew "cookcli"
 brew "crane" # https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md
+brew "crystal"                   # Install via mise
 brew "cue"
 brew "dark-mode"
 brew "darksky-weather"
@@ -56,6 +60,7 @@ brew "kubie"
 brew "kustomize"
 brew "krew"
 brew "lynx"
+brew "m-cli"
 brew "micro"                     # Text editor
 brew "minikube"
 brew "mkcert"
@@ -65,6 +70,7 @@ brew "newsboat"                  # Terminal-based RSS reader
 brew "nmap"
 brew "nnn"
 brew "node"                      # Use mise or nvm
+brew "numbat"
 brew "pass"                      # https://www.passwordstore.org/
 brew "plantuml"
 brew "podman"
@@ -77,7 +83,9 @@ brew "rbenv"                     # Use mise instead
 brew "rbenv-vars"
 brew "redo"
 brew "rizin"                     # Reverse engineering tool
-brew "rust"                      # Switched to rustup.
+brew "ruby-build"                # Switched to mise
+brew "rust"                      # Switched to mise
+brew "rustup-init"               # Swirched to mise
 brew "saml2aws"
 brew "speedtest-cli"             # Deprecated
 brew "sshuttle"
