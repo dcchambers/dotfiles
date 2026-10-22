@@ -13,6 +13,7 @@ mkdir -p ~/.config/nvim
 mkdir -p ~/.config/nvim/lua
 mkdir -p ~/.config/nvim/lua/config
 mkdir -p ~/.config/nvim/lua/plugins
+mkdir -p ~/.config/opencode
 mkdir -p ~/.config/zed
 mkdir -p ~/.gnupg
 mkdir -p ~/Library/Application\ Support/Code/User
@@ -32,6 +33,8 @@ ln -sv $DOTFILE_DIR/.config/lazyvim/lua/config/options.lua        ~/.config/nvim
 ln -sv $DOTFILE_DIR/.config/lazyvim/lua/plugins/example.lua       ~/.config/nvim/lua/plugins/example.lua
 ln -sv $DOTFILE_DIR/.config/lazyvim/stylua.toml                   ~/.config/nvim/stylua.toml
 ln -sv $DOTFILE_DIR/.config/notekeeper/noterc                     ~/.config/notekeeper/noterc
+ln -sv $DOTFILE_DIR/.config/opencode/cli.json                     ~/.config/opencode/cli.json
+ln -sv $DOTFILE_DIR/.config/opencode/opencode.jsonc               ~/.config/opencode/opencode.jsonc
 ln -sv $DOTFILE_DIR/.config/zed/settings.json                     ~/.config/zed/settings.json
 ln -sv $DOTFILE_DIR/.gitconfig-public                             ~/.gitconfig-public
 ln -sv $DOTFILE_DIR/.gnupg/gpg-agent.conf                         ~/.gnupg/gpg-agent.conf
