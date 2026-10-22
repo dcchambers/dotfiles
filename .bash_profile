@@ -92,6 +92,11 @@ export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
 ###########################
 
 ###########################
+# Personal scripts and utilities
+export PATH="/Users/dakota/Code/dotfiles/scripts/bin:$PATH"
+###########################
+
+###########################
 # Aliases
 source ~/.bash_aliases
 ###########################
