@@ -116,6 +116,7 @@ cask "vlc"                           # https://www.videolan.org/vlc/
 
 ## Software Engineering & AI
 cask "chatgpt"
+cask "codexbar"                      # https://codexbar.app/
 cask "db-browser-for-sqlite"
 cask "ghostty@tip"                   # https://ghostty.org/
 cask "gitify"                        # https://gitify.io/
