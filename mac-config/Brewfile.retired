@@ -15,6 +15,7 @@ tap "vmware-tanzu/carvel"
 brew "act"
 brew "age"
 brew "ankitpokhrel/jira-cli/jira-cli"
+brew "atuin"
 brew "borgbackup"
 brew "borgmatic"s
 brew "charmbracelet/tap/skate"
